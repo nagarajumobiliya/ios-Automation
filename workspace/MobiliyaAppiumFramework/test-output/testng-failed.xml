@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.mobiliya.framework.listeners.TestListener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.mobiliya.edvelop.test.BaseTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.mobiliya.edvelop.test.BaseTest -->
+      <class name="com.mobiliya.edvelop.test.EdvelopTests">
+        <methods>
+          <include name="testDisplayIntroScreensOnFirstLaunch"/>
+          <include name="testDisplayDashboard"/>
+          <include name="testInvalidLoginWithGoogle" invocation-numbers="0 1"/>
+          <include name="testValidLoginWithGoogle"/>
+        </methods>
+      </class> <!-- com.mobiliya.edvelop.test.EdvelopTests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

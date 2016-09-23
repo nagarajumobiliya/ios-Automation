@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [EdvelopSuite]">
+  <test name="EdvelopTest(failed)">
+    <classes>
+      <class name="com.mobiliya.edvelop.test.TestChildCount">
+        <methods>
+          <include name="child1Crousetest"/>
+          <include name="childCountTest"/>
+          <include name="beforeTest"/>
+          <include name="child1NameTest"/>
+        </methods>
+      </class> <!-- com.mobiliya.edvelop.test.TestChildCount -->
+      <class name="com.mobiliya.edvelop.test.BaseTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.mobiliya.edvelop.test.BaseTest -->
+    </classes>
+  </test> <!-- EdvelopTest(failed) -->
+</suite> <!-- Failed suite [EdvelopSuite] -->
