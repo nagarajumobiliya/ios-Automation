@@ -11,6 +11,7 @@ import org.apache.commons.exec.DefaultExecutor;
 public class IOSWebkitDebugProxyService extends BaseClass {
 	public static void startIOSWebkitDebugProxyService() {
 
+		stopIOSWebkitDebugProxyService();
 		// CommandLine iOSProxyCommand = new CommandLine("/bin/sh -c");
 		// iOSProxyCommand.addArgument(Constants.APPIUM_NODE_PATH);
 		CommandLine iOSProxyCommand = new CommandLine(Constants.APPIUM_NODE_PATH);

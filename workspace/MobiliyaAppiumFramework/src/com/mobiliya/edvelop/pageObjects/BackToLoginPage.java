@@ -19,8 +19,6 @@ public class BackToLoginPage extends BaseClass {
 	@iOSFindBy(xpath = "//UIAApplication[1]/UIAWindow[1]/UIAButton[1]")
 	public MobileElement btn_back_to_login;
 	
-	
-
 	public String getTextErrMsgInvalidLogin() {
 		return static_text_err_msg.getAttribute("name");
 	}

@@ -16,7 +16,6 @@
         <methods>
           <include name="testDisplayIntroScreensOnFirstLaunch"/>
           <include name="testDisplayDashboard"/>
-          <include name="testInvalidLoginWithGoogle" invocation-numbers="0 1"/>
           <include name="testValidLoginWithGoogle"/>
         </methods>
       </class> <!-- com.mobiliya.edvelop.test.EdvelopTests -->

@@ -22,8 +22,4 @@ public class KeywordsCommon extends BaseClass {
 	public static void contextSwitchWebToNative() {
 		driver.context("NATIVE_APP");
 	}
-	
-	public static void waitUntil(WebElement element){
-		wait.until(ExpectedConditions.visibilityOf(element));
-	}
 }

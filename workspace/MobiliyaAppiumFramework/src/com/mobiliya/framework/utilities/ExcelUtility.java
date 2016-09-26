@@ -67,7 +67,7 @@ public class ExcelUtility extends BaseClass {
 
 	public static int getRowsCount() {
 		try {
-			return excelSheet.getLastRowNum() + 1;
+			return excelSheet.getLastRowNum();
 		} catch (Exception e) {
 			APP_LOGS.error("Unable to get row count: " + e.getMessage());
 			e.printStackTrace();

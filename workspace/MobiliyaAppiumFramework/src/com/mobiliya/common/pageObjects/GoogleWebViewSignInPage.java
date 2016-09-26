@@ -11,7 +11,7 @@ import com.mobiliya.framework.configure.BaseClass;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 
 public class GoogleWebViewSignInPage extends BaseClass {
-	public GoogleWebViewSignInPage(){
+	public GoogleWebViewSignInPage() {
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 	}
 
@@ -51,13 +51,14 @@ public class GoogleWebViewSignInPage extends BaseClass {
 	}
 
 	public void performGmailSignIn(String email, String password) {
+
 		wait.until(ExpectedConditions.visibilityOf(tbox_enter_your_email));
 		enterEmailIntoTextbox(email);
 		clickNextButton();
 		wait.until(ExpectedConditions.visibilityOf(tbox_enter_your_password));
 		enterPasswordIntoTextbox(password);
 		clickSignInButton();
-		wait.until(ExpectedConditions.visibilityOf(btn_allow));
+		wait.until(ExpectedConditions.elementToBeClickable(btn_allow));
 		clickAllowAccessButton();
 	}
 

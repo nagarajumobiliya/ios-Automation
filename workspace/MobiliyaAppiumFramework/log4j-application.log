@@ -1060,4 +1060,305 @@ Driver info: driver.version: ManageDriver
  2016-09-23 11:36:47,190  INFO [main] BaseClass:66 - Appium server stopped.
  2016-09-23 11:36:47,213  INFO [main] BaseClass:49 - IOS webkit debug proxy service stopped.
  2016-09-23 11:36:47,214  INFO [main] BaseClass:56 - Testing complete.
+ 2016-09-23 12:37:29,141  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-23 12:37:29,159  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Mayank's, Device UDID: b9bad8c8321ce8e1e28ea5b99d14ca167b5672d4]
+ 2016-09-23 12:37:30,221  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-23 12:37:40,259  INFO [main] BaseClass:33 - IOS webkit debug proxy service started.
+ 2016-09-23 12:37:40,295  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-23 12:37:40,295  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-23 12:38:12,873  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-23 12:38:12,972  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-23 12:38:12,982  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-23 12:38:12,982  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-23 12:38:12,983  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-23 12:38:12,989  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-23 12:38:13,120  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogleAfterLoginFail
+ 2016-09-23 12:38:13,127  INFO [main] BaseClass:50 - Test case passed : testValidLoginWithGoogleAfterLoginFail
+ 2016-09-23 12:38:13,140  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-23 12:40:33,893  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-23 12:40:33,910  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Mayank's, Device UDID: b9bad8c8321ce8e1e28ea5b99d14ca167b5672d4]
+ 2016-09-23 12:40:35,271  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-23 12:40:45,317  INFO [main] BaseClass:33 - IOS webkit debug proxy service started.
+ 2016-09-23 12:40:45,372  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-23 12:40:45,373  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-23 12:40:46,680 ERROR [main] BaseClass:28 - Unable to setup driver: A new session could not be created. Details: Problem getting session data for driver type IosDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 513 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'Chetans-Mac.local', ip: '10.9.43.151', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_102'
+Driver info: io.appium.java_client.ios.IOSDriver
+ 2016-09-23 12:40:46,683  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-23 12:40:46,688  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-23 12:40:46,769  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogleAfterLoginFail
+ 2016-09-23 12:40:46,781  INFO [main] BaseClass:50 - Test case passed : testValidLoginWithGoogleAfterLoginFail
+ 2016-09-23 12:40:46,804  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-23 12:40:46,913  INFO [main] BaseClass:32 - Test case failed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-23 12:40:46,929  INFO [main] BaseClass:32 - Test case failed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-23 12:40:47,001  INFO [main] BaseClass:14 - Test Finished :Test
+ 2016-09-23 12:41:45,982  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-23 12:41:45,999  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Mayank's, Device UDID: b9bad8c8321ce8e1e28ea5b99d14ca167b5672d4]
+ 2016-09-23 12:41:47,123  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-23 12:41:57,163  INFO [main] BaseClass:33 - IOS webkit debug proxy service started.
+ 2016-09-23 12:41:57,236  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-23 12:41:57,236  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-23 12:41:58,335 ERROR [main] BaseClass:28 - Unable to setup driver: A new session could not be created. Details: Problem getting session data for driver type IosDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 306 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'Chetans-Mac.local', ip: '10.9.43.151', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_102'
+Driver info: io.appium.java_client.ios.IOSDriver
+ 2016-09-23 12:41:58,337  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-23 12:41:58,340  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-23 12:41:58,365  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogleAfterLoginFail
+ 2016-09-23 12:41:58,367  INFO [main] BaseClass:50 - Test case passed : testValidLoginWithGoogleAfterLoginFail
+ 2016-09-23 12:41:58,368  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-23 12:41:58,494  INFO [main] BaseClass:32 - Test case failed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-23 12:41:58,522  INFO [main] BaseClass:32 - Test case failed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-23 12:41:58,718  INFO [main] BaseClass:14 - Test Finished :Test
+ 2016-09-23 12:43:19,195  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-23 12:43:19,207  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Mayank's, Device UDID: b9bad8c8321ce8e1e28ea5b99d14ca167b5672d4]
+ 2016-09-23 12:43:20,237  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-23 12:43:30,275  INFO [main] BaseClass:33 - IOS webkit debug proxy service started.
+ 2016-09-23 12:43:30,339  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-23 12:43:30,340  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-23 12:45:28,693  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-23 12:45:28,710  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Mayank's, Device UDID: b9bad8c8321ce8e1e28ea5b99d14ca167b5672d4]
+ 2016-09-23 12:45:30,017  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-23 12:45:40,087  INFO [main] BaseClass:33 - IOS webkit debug proxy service started.
+ 2016-09-23 12:45:40,122  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-23 12:45:40,123  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-23 12:46:08,600  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-23 12:46:08,644  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-23 12:46:08,700  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-23 12:46:08,701  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-23 12:46:08,705  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-23 12:46:08,733  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-23 12:46:08,785  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogleAfterLoginFail
+ 2016-09-23 12:46:08,790  INFO [main] BaseClass:50 - Test case passed : testValidLoginWithGoogleAfterLoginFail
+ 2016-09-23 12:46:08,839  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-23 12:46:28,893  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-23 12:46:29,105  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-23 12:46:29,112  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-23 12:46:29,113  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-23 12:46:29,115  INFO [main] BaseClass:44 - Test case execution started : testInvalidLoginWithGoogle
+ 2016-09-23 12:48:55,868  INFO [main] BaseClass:32 - Test case failed : testInvalidLoginWithGoogle
+ 2016-09-23 12:49:12,949  INFO [main] BaseClass:21 - Screenshot taken.
+ 2016-09-23 12:49:13,012  INFO [main] BaseClass:38 - Test case skipped : testValidLoginWithGoogle
+ 2016-09-23 12:49:13,016  INFO [main] BaseClass:38 - Test case skipped : testDisplayDashboard
+ 2016-09-23 12:49:13,391  INFO [main] BaseClass:14 - Test Finished :Test
+ 2016-09-23 12:49:13,654  INFO [main] BaseClass:66 - Appium server stopped.
+ 2016-09-23 12:49:13,668  INFO [main] BaseClass:49 - IOS webkit debug proxy service stopped.
+ 2016-09-23 12:49:13,672  INFO [main] BaseClass:56 - Testing complete.
+ 2016-09-23 12:51:39,653  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-23 12:51:39,679  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Mayank's, Device UDID: b9bad8c8321ce8e1e28ea5b99d14ca167b5672d4]
+ 2016-09-23 12:51:40,353  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-23 12:51:50,384  INFO [main] BaseClass:33 - IOS webkit debug proxy service started.
+ 2016-09-23 12:51:50,408  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-23 12:51:50,409  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-23 12:52:20,068  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-23 12:52:20,115  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-23 12:52:20,142  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-23 12:52:20,145  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-23 12:52:20,147  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-23 12:52:20,152  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-23 12:52:20,174  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogleAfterLoginFail
+ 2016-09-23 12:52:20,177  INFO [main] BaseClass:50 - Test case passed : testValidLoginWithGoogleAfterLoginFail
+ 2016-09-23 12:52:20,188  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-23 12:52:39,371  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-23 12:52:39,534  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-23 12:52:39,540  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-23 12:52:39,540  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-23 12:52:39,545  INFO [main] BaseClass:44 - Test case execution started : testInvalidLoginWithGoogle
+ 2016-09-23 12:53:31,772  INFO [main] BaseClass:50 - Test case passed : testInvalidLoginWithGoogle
+ 2016-09-23 12:53:31,879  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-23 12:53:31,896  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-23 12:53:31,897  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-23 12:53:31,898  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-23 13:01:23,236  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-23 13:01:23,254  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Mayank's, Device UDID: b9bad8c8321ce8e1e28ea5b99d14ca167b5672d4]
+ 2016-09-23 13:01:24,426  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-23 13:01:52,797  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-23 13:01:52,822  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Mayank's, Device UDID: b9bad8c8321ce8e1e28ea5b99d14ca167b5672d4]
+ 2016-09-23 13:01:53,736  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-23 13:02:03,769  INFO [main] BaseClass:33 - IOS webkit debug proxy service started.
+ 2016-09-23 13:02:03,800  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-23 13:02:03,801  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-23 13:04:31,734  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-23 13:04:31,751  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Mayank's, Device UDID: b9bad8c8321ce8e1e28ea5b99d14ca167b5672d4]
+ 2016-09-23 13:04:32,417  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-23 13:04:32,453  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-23 13:04:42,547  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-23 13:04:42,559  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-23 13:04:42,560  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-23 13:05:11,734  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-23 13:05:11,844  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-23 13:05:11,856  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-23 13:05:11,857  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-23 13:05:11,857  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-23 13:05:11,862  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-23 13:05:11,964  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-23 13:05:32,016  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-23 13:05:32,244  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-23 13:05:32,255  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-23 13:05:32,256  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-23 13:05:32,260  INFO [main] BaseClass:44 - Test case execution started : testInvalidLoginWithGoogle
+ 2016-09-23 13:06:19,643  INFO [main] BaseClass:50 - Test case passed : testInvalidLoginWithGoogle
+ 2016-09-23 13:06:19,735  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-23 13:06:19,737  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-23 13:06:19,740  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-23 13:06:19,747  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-23 13:06:31,447  INFO [main] BaseClass:32 - Test case failed : testValidLoginWithGoogle
+ 2016-09-23 13:06:56,388  INFO [main] BaseClass:21 - Screenshot taken.
+ 2016-09-23 13:06:56,398  INFO [main] BaseClass:38 - Test case skipped : testDisplayDashboard
+ 2016-09-23 13:06:56,505  INFO [main] BaseClass:14 - Test Finished :Test
+ 2016-09-23 13:06:56,695  INFO [main] BaseClass:66 - Appium server stopped.
+ 2016-09-23 13:06:56,741  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-23 13:06:56,742  INFO [main] BaseClass:56 - Testing complete.
+ 2016-09-23 13:08:27,706  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-23 13:08:27,724  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Mayank's, Device UDID: b9bad8c8321ce8e1e28ea5b99d14ca167b5672d4]
+ 2016-09-23 13:08:29,407  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-23 13:08:29,516  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-23 13:08:39,554  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-23 13:08:39,601  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-23 13:08:39,601  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-23 13:11:05,979 ERROR [main] BaseClass:28 - Unable to setup driver: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'Chetans-Mac.local', ip: '10.9.43.151', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_102'
+Driver info: driver.version: ManageDriver
+ 2016-09-23 13:11:05,993  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-23 13:11:05,997  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-23 13:11:06,042  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-23 13:11:06,141  INFO [main] BaseClass:32 - Test case failed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-23 13:11:06,147  INFO [main] BaseClass:32 - Test case failed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-23 13:11:06,203  INFO [main] BaseClass:14 - Test Finished :Test
+ 2016-09-23 16:33:33,712  INFO [main] BaseClass:36 - Unable to perform automation! Exiting...
+ 2016-09-23 16:34:27,688  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-23 16:34:27,705  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Mayank's, Device UDID: b9bad8c8321ce8e1e28ea5b99d14ca167b5672d4]
+ 2016-09-23 16:34:28,811  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-23 16:34:28,839  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-23 16:34:38,858  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-23 16:34:38,908  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-23 16:34:38,908  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-23 16:35:12,022  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-23 16:35:12,070  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-23 16:35:12,076  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-23 16:35:12,076  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-23 16:35:12,076  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-23 16:35:12,079  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-23 16:35:12,155  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-23 16:35:31,306  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-23 16:35:31,516  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-23 16:35:31,524  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-23 16:35:31,525  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-23 16:35:31,532  INFO [main] BaseClass:44 - Test case execution started : testInvalidLoginWithGoogle
+ 2016-09-23 16:36:47,920  INFO [main] BaseClass:50 - Test case passed : testInvalidLoginWithGoogle
+ 2016-09-23 16:36:48,004  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-23 16:36:48,005  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-23 16:36:48,006  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-23 16:36:48,008  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-23 16:36:55,652  INFO [main] BaseClass:32 - Test case failed : testValidLoginWithGoogle
+ 2016-09-23 16:37:26,999  INFO [main] BaseClass:21 - Screenshot taken.
+ 2016-09-23 16:37:27,025  INFO [main] BaseClass:38 - Test case skipped : testDisplayDashboard
+ 2016-09-23 16:37:27,280  INFO [main] BaseClass:14 - Test Finished :Test
+ 2016-09-23 16:37:27,419  INFO [main] BaseClass:66 - Appium server stopped.
+ 2016-09-23 16:37:27,465  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-23 16:37:27,474  INFO [main] BaseClass:56 - Testing complete.
+ 2016-09-23 16:40:41,577  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-23 16:40:41,595  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Mayank's, Device UDID: b9bad8c8321ce8e1e28ea5b99d14ca167b5672d4]
+ 2016-09-23 16:40:42,688  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-23 16:40:42,729  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-23 16:40:52,744  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-23 16:40:52,798  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-23 16:40:52,799  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-23 16:41:31,341  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-23 16:41:31,429  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-23 16:41:31,446  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-23 16:41:31,447  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-23 16:41:31,447  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-23 16:41:31,452  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-23 16:41:31,582  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-23 16:41:51,646  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-23 16:41:51,913  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-23 16:41:51,931  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-23 16:41:51,931  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-23 16:41:51,936  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-23 16:42:42,035  INFO [main] BaseClass:50 - Test case passed : testValidLoginWithGoogle
+ 2016-09-23 16:42:42,059  INFO [main] BaseClass:44 - Test case execution started : testDisplayDashboard
+ 2016-09-23 16:42:42,072  INFO [main] BaseClass:50 - Test case passed : testDisplayDashboard
+ 2016-09-23 16:42:42,191  INFO [main] BaseClass:14 - Test Finished :Test
+ 2016-09-23 16:42:42,366  INFO [main] BaseClass:66 - Appium server stopped.
+ 2016-09-23 16:42:42,398  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-23 16:42:42,399  INFO [main] BaseClass:56 - Testing complete.
+ 2016-09-26 10:22:53,611  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 10:22:53,627  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Mayank's, Device UDID: b9bad8c8321ce8e1e28ea5b99d14ca167b5672d4]
+ 2016-09-26 10:22:55,077  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 10:22:55,146  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 10:23:05,162  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 10:23:05,204  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 10:23:05,205  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 10:23:43,162  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-26 10:23:43,284  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-26 10:23:43,299  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-26 10:23:43,322  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-26 10:23:43,322  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 10:23:43,383  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-26 10:23:43,518  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 10:24:03,233  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 10:24:03,555  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 10:24:03,573  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 10:24:03,575  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 10:24:03,579  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-26 10:24:19,420  INFO [main] BaseClass:32 - Test case failed : testValidLoginWithGoogle
+ 2016-09-26 10:24:30,564  INFO [main] BaseClass:21 - Screenshot taken.
+ 2016-09-26 10:24:30,595  INFO [main] BaseClass:38 - Test case skipped : testDisplayDashboard
+ 2016-09-26 10:24:30,902  INFO [main] BaseClass:14 - Test Finished :Test
+ 2016-09-26 10:24:31,098  INFO [main] BaseClass:66 - Appium server stopped.
+ 2016-09-26 10:24:31,129  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 10:24:31,130  INFO [main] BaseClass:56 - Testing complete.
+ 2016-09-26 10:26:56,634  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 10:26:56,650  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Mayank's, Device UDID: b9bad8c8321ce8e1e28ea5b99d14ca167b5672d4]
+ 2016-09-26 10:26:57,707  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 10:26:57,734  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 10:27:07,756  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 10:27:07,811  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 10:27:07,812  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 10:27:39,100  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-26 10:27:39,159  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-26 10:27:39,165  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-26 10:27:39,166  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-26 10:27:39,166  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 10:27:39,171  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-26 10:27:39,209  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 10:27:57,879  INFO [main] BaseClass:32 - Test case failed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 10:28:26,769  INFO [main] BaseClass:21 - Screenshot taken.
+ 2016-09-26 10:28:27,107  INFO [main] BaseClass:38 - Test case skipped : testValidLoginWithGoogle
+ 2016-09-26 10:28:27,149  INFO [main] BaseClass:38 - Test case skipped : testDisplayDashboard
+ 2016-09-26 10:28:27,304  INFO [main] BaseClass:14 - Test Finished :Test
+ 2016-09-26 10:28:27,435  INFO [main] BaseClass:66 - Appium server stopped.
+ 2016-09-26 10:28:27,561  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 10:28:27,574  INFO [main] BaseClass:56 - Testing complete.
+ 2016-09-26 10:29:28,470  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 10:29:28,487  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Mayank's, Device UDID: b9bad8c8321ce8e1e28ea5b99d14ca167b5672d4]
+ 2016-09-26 10:29:30,401  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 10:29:30,429  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 10:29:40,447  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 10:29:40,489  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 10:29:40,490  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 10:30:11,717  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-26 10:30:11,762  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-26 10:30:11,770  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-26 10:30:11,771  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-26 10:30:11,771  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 10:30:11,773  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-26 10:30:11,813  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 10:30:32,051  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 10:30:32,389  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 10:30:32,399  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 10:30:32,401  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 10:30:32,405  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-26 10:31:16,400  INFO [main] BaseClass:50 - Test case passed : testValidLoginWithGoogle
+ 2016-09-26 10:31:16,426  INFO [main] BaseClass:44 - Test case execution started : testDisplayDashboard
+ 2016-09-26 10:31:16,438  INFO [main] BaseClass:50 - Test case passed : testDisplayDashboard
+ 2016-09-26 10:31:16,493  INFO [main] BaseClass:14 - Test Finished :Test
+ 2016-09-26 10:31:16,610  INFO [main] BaseClass:66 - Appium server stopped.
+ 2016-09-26 10:31:16,672  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 10:31:16,678  INFO [main] BaseClass:56 - Testing complete.
  
