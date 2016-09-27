@@ -18,14 +18,6 @@
           <include name="setup"/>
         </methods>
       </class> <!-- com.mobiliya.edvelop.test.BaseTest -->
-<<<<<<< Upstream, based on local_chetan
-=======
-      <class name="com.mobiliya.edvelop.test.TestValidLoginWithMicrosoft">
-        <methods>
-          <include name="testValidLoginWithMicrosoft"/>
-        </methods>
-      </class> <!-- com.mobiliya.edvelop.test.TestValidLoginWithMicrosoft -->
->>>>>>> 10502b0 Added error handing to all page object, Added tests to sign in using Facebook and microsoft, Added minor chages to utilities and config files
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

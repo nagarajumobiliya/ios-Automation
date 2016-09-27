@@ -3230,4 +3230,31 @@ Session ID: dd745b77-1016-42a6-b0f9-f359d6cd5724
  2016-09-27 11:37:40,564  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
  2016-09-27 11:37:40,565  INFO [main] BaseClass:56 - Testing complete.
 >>>>>>> 10502b0 Added error handing to all page object, Added tests to sign in using Facebook and microsoft, Added minor chages to utilities and config files
+ 2016-09-27 13:17:06,535  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-27 13:17:06,537  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-27 13:17:06,983  INFO [main] BaseClass:27 - Excel file setup completed.
+ 2016-09-27 13:17:07,046  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-27 13:17:17,055  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-27 13:17:17,092  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-27 13:17:17,093  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-27 13:17:55,306  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-27 13:17:55,359  INFO [main] BaseClass:13 - Implicit wait initialized.
+ 2016-09-27 13:17:55,363  INFO [main] BaseClass:26 - Explicit wait initialized.
+ 2016-09-27 13:17:55,363  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-27 13:17:55,363  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-27 13:17:55,366  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-27 13:17:55,393  INFO [main] BaseClass:49 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-27 13:18:18,576  INFO [main] BaseClass:55 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-27 13:18:18,594  INFO [main] BaseClass:49 - Test case execution started : testValidLoginWithMicrosoft
+ 2016-09-27 13:18:34,596  INFO [main] BaseClass:16 - Switched to the context: WEBVIEW_1
+ 2016-09-27 13:19:03,731  INFO [main] BaseClass:28 - Switched to the context: NATIVE_APP
+ 2016-09-27 13:19:21,309  INFO [main] BaseClass:55 - Test case passed : testValidLoginWithMicrosoft
+ 2016-09-27 13:19:21,327  INFO [main] BaseClass:49 - Test case execution started : testDisplayDashboardAfterValidLogin
+ 2016-09-27 13:19:32,617  INFO [main] BaseClass:55 - Test case passed : testDisplayDashboardAfterValidLogin
+ 2016-09-27 13:19:33,907  INFO [main] BaseClass:49 - Test case execution started : childName
+ 2016-09-27 13:19:33,909  INFO [main] BaseClass:43 - Test case skipped : childName
+ 2016-09-27 13:19:34,020  INFO [main] BaseClass:14 - Test Finished :Test
+ 2016-09-27 13:19:34,103  INFO [main] BaseClass:66 - Appium server stopped.
+ 2016-09-27 13:19:34,114  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-27 13:19:34,115  INFO [main] BaseClass:56 - Testing complete.
  
