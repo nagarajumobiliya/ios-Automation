@@ -15,15 +15,26 @@ public class BackToLoginPage extends BaseClass {
 
 	@iOSFindBy(xpath = "//UIAApplication[1]/UIAWindow[1]/UIAStaticText[1]")
 	public MobileElement static_text_err_msg;
-	
+
 	@iOSFindBy(xpath = "//UIAApplication[1]/UIAWindow[1]/UIAButton[1]")
 	public MobileElement btn_back_to_login;
-	
+
 	public String getTextErrMsgInvalidLogin() {
-		return static_text_err_msg.getAttribute("name");
+		try {
+			return static_text_err_msg.getAttribute("name");
+		} catch (Exception e) {
+			APP_LOGS.error("Unable to get text: " + e.getMessage());
+			e.printStackTrace();
+			return null;
+		}
 	}
-	
-	public void clickBackToLoginButton(){
-		btn_back_to_login.click();
+
+	public void clickBackToLoginButton() {
+		try {
+			btn_back_to_login.click();
+		} catch (Exception e) {
+			APP_LOGS.error("Unable to click:" + e.getMessage());
+			e.printStackTrace();
+		}
 	}
 }

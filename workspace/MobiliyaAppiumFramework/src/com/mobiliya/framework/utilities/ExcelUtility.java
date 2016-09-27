@@ -16,9 +16,11 @@ public class ExcelUtility extends BaseClass {
 	private static XSSFWorkbook excelWorkbook;
 	private static XSSFCell excelCell;
 	private static XSSFRow excelRow;
+	private static String excelFile = null;
 
 	public static void setExcelFile(String path, String sheetName) {
 		try {
+			excelFile = path;
 			FileInputStream fis = new FileInputStream(path);
 			excelWorkbook = new XSSFWorkbook(fis);
 			excelSheet = excelWorkbook.getSheet(sheetName);
@@ -54,7 +56,7 @@ public class ExcelUtility extends BaseClass {
 			excelCell = excelRow.createCell(col);
 			excelCell.setCellValue(result);
 
-			FileOutputStream fos = new FileOutputStream(Constants.TESTDATA_FILEPATH);
+			FileOutputStream fos = new FileOutputStream(excelFile);
 			excelWorkbook.write(fos);
 			fos.flush();
 			fos.close();

@@ -2,6 +2,7 @@ package com.mobiliya.edvelop.test;
 
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -14,13 +15,15 @@ import com.mobiliya.edvelop.pageObjects.LoginPage;
 import com.mobiliya.framework.utilities.ExcelUtility;
 
 public class TestInvalidLoginWithGoogle extends BaseTest {
+	
 	@Test(dataProvider = "testDataInvalidLogin")
 	public void testInvalidLoginWithGoogle(String username, String password) {
-		IntroScreensPage introPage = new IntroScreensPage();
 		LoginPage loginPage = new LoginPage();
 		BackToLoginPage backToLoginPage = new BackToLoginPage();
+		IntroScreensPage introPage = new IntroScreensPage();
 		GoogleWebViewSignInPage signInPage = new GoogleWebViewSignInPage();
 		introPage.clickGetStartedButton();
+		wait.until(ExpectedConditions.elementToBeClickable(loginPage.btn_sign_in_with_google));
 		loginPage.clickSignInWithGoogleButton();
 		KeywordsCommon.contextSwitchNativeToWeb();
 		signInPage.performGmailSignIn(username, password);

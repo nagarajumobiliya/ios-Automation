@@ -32,11 +32,28 @@ public class KidsListPage extends BaseClass {
 	public List<MobileElement> list_Kids ;
     
 	public void clickContinueButton() {
-		btn_continue.click();
+		try {
+			btn_continue.click();
+		} catch (Exception e) {
+			APP_LOGS.error("Unable to click: " + e.getMessage());
+			e.printStackTrace();
+		}
 	}
 
 	public String getTextGetStartedStaticText() {
-		return static_text_get_started.getAttribute("name");
+		try {
+			String text;
+			//wait.until(ExpectedConditions.visibilityOf(static_text_get_started));
+			//text=static_text_get_started.getAttribute("name");
+			//if(text.equals(null)||(text.equals(""))){
+				text=static_text_get_started.getText();
+				return text;
+			//}
+		} catch (Exception e) {
+			APP_LOGS.error("Unable to read text: " + e.getMessage());
+			e.printStackTrace();
+			return null;
+		}
 	}
 
 //	public void selectKidFromList(String kidName) {

@@ -1,0 +1,26 @@
+package com.mobiliya.edvelop.test;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import com.mobiliya.edvelop.pageObjects.DashboardPage;
+import com.mobiliya.edvelop.pageObjects.KidsListPage;
+
+public class TestDisplayDashboard extends BaseTest{
+@Test
+public void testDisplayDashboardAfterValidLogin(){
+	KidsListPage kidsListPage=new KidsListPage();
+<<<<<<< Upstream, based on local_chetan
+	//DashboardPage dashboardPage=new DashboardPage();
+	System.out.println("hi");
+	kidsListPage.selectKidFromList("User 1");
+=======
+	DashboardPage dashboardPage=new DashboardPage();
+	kidsListPage.selectKidFromList("Amal Ahmed");
+>>>>>>> 10502b0 Added error handing to all page object, Added tests to sign in using Facebook and microsoft, Added minor chages to utilities and config files
+	kidsListPage.clickContinueButton();
+//	String actual="";
+//	String expected="";
+//	Assert.assertEquals(actual, expected);
+}
+}

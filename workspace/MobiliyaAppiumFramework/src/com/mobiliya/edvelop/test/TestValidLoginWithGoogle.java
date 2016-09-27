@@ -8,7 +8,6 @@ import org.testng.annotations.Test;
 import com.mobiliya.common.pageObjects.GoogleWebViewSignInPage;
 import com.mobiliya.common.pageObjects.KeywordsCommon;
 import com.mobiliya.edvelop.AppConstants;
-import com.mobiliya.edvelop.pageObjects.BackToLoginPage;
 import com.mobiliya.edvelop.pageObjects.IntroScreensPage;
 import com.mobiliya.edvelop.pageObjects.KidsListPage;
 import com.mobiliya.edvelop.pageObjects.LoginPage;
@@ -21,8 +20,8 @@ public class TestValidLoginWithGoogle extends BaseTest {
 		LoginPage loginPage = new LoginPage();
 		KidsListPage kidsListPage = new KidsListPage();
 		GoogleWebViewSignInPage signInPage = new GoogleWebViewSignInPage();
-		new BackToLoginPage();
 		introPage.clickGetStartedButton();
+		wait.until(ExpectedConditions.elementToBeClickable(loginPage.btn_sign_in_with_google));
 		loginPage.clickSignInWithGoogleButton();
 		KeywordsCommon.contextSwitchNativeToWeb();
 		signInPage.performGmailSignIn(username, password);

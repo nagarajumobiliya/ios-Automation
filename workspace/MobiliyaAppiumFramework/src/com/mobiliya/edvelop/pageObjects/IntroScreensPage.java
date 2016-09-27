@@ -24,17 +24,33 @@ public class IntroScreensPage extends BaseClass {
 	public MobileElement btn_get_started;
 
 	public void SwipeIntroImages() {
-		for (int i = 0; i < 2; i++) {
-			img_intro.swipe(SwipeElementDirection.LEFT, 100);
+		try {
+			for (int i = 0; i < 2; i++) {
+				img_intro.swipe(SwipeElementDirection.LEFT, 100);
+			}
+		} catch (Exception e) {
+			APP_LOGS.error("Unable to swipe:" + e.getMessage());
+			e.printStackTrace();
 		}
 	}
 
 	public String getTextGetStartedButton() {
-		return btn_get_started.getAttribute("name");
+		try {
+			return btn_get_started.getAttribute("name");
+		} catch (Exception e) {
+			APP_LOGS.error("Unable to get text: " + e.getMessage());
+			e.printStackTrace();
+			return null;
+		}
 	}
 	
 	public void clickGetStartedButton() {
-		btn_get_started.click();
+		try {
+			btn_get_started.click();
+		} catch (Exception e) {
+			APP_LOGS.error("Unable to click:" + e.getMessage());
+			e.printStackTrace();
+		}
 	}
 }
 

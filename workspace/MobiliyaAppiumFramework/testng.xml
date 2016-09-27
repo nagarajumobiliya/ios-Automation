@@ -8,7 +8,7 @@
 		<classes>
 			<class name="com.mobiliya.edvelop.test.BaseTest" />
 			<class name="com.mobiliya.edvelop.test.TestDisplayIntroScreens" />
-			<class name="com.mobiliya.edvelop.test.TestValidLoginWithGoogle" />
+			<class name="com.mobiliya.edvelop.test.TestValidLoginWithMicrosoft" />
 			<class name="com.mobiliya.edvelop.test.TestDisplayDashboard" />
 			<class name = "com.mobiliya.edvelop.test.TestMainMenu" />
 		</classes>
