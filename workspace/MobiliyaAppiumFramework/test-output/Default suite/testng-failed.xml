@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.mobiliya.edvelop.test.EdvelopTests">
+      <class name="com.mobiliya.edvelop.test.TestMainMenu">
         <methods>
-          <include name="testDisplayIntroScreensOnFirstLaunch"/>
-          <include name="testDisplayDashboard"/>
-          <include name="testInvalidLoginWithGoogle"/>
-          <include name="testValidLoginWithGoogle"/>
+          <include name="getPartentWindow"/>
+          <include name="childName"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.mobiliya.edvelop.test.EdvelopTests -->
+      </class> <!-- com.mobiliya.edvelop.test.TestMainMenu -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

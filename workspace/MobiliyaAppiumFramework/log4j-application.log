@@ -1566,4 +1566,1184 @@ Driver info: driver.version: ManageDriver
  2016-09-26 12:06:14,748  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
  2016-09-26 12:06:58,119  INFO [main] BaseClass:50 - Test case passed : testValidLoginWithGoogle
  2016-09-26 12:06:58,170  INFO [main] BaseClass:44 - Test case execution started : testDisplayDashboardAfterValidLogin
+ 2016-09-26 12:24:42,427  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 12:24:42,429  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 12:24:42,883  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 12:24:42,915  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 12:24:52,926  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 12:24:52,929  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 12:24:52,929  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 12:24:53,401 ERROR [main] BaseClass:28 - Unable to setup driver: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'admins-Mac-mini.local', ip: '10.9.43.129', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: driver.version: ManageDriver
+ 2016-09-26 12:24:53,404  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 12:24:53,463  INFO [main] BaseClass:66 - Appium server stopped.
+ 2016-09-26 12:24:53,468  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 12:24:53,470  INFO [main] BaseClass:56 - Testing complete.
+ 2016-09-26 12:25:16,688  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 12:25:16,725  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 12:25:17,187  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 12:25:17,191  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 12:25:27,203  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 12:25:27,205  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 12:25:27,205  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 12:25:54,128  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-26 12:25:54,190  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-26 12:25:54,194  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-26 12:25:54,194  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-26 12:25:54,194  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 12:26:43,695  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 12:26:43,704  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 12:26:44,215  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 12:26:44,250  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 12:26:54,265  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 12:26:54,284  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 12:26:54,284  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 12:27:22,701  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-26 12:27:22,774  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-26 12:27:22,778  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-26 12:27:22,778  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-26 12:27:22,778  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 12:28:58,584  INFO [main] BaseClass:66 - Appium server stopped.
+ 2016-09-26 12:28:58,591  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 12:28:58,592  INFO [main] BaseClass:56 - Testing complete.
+ 2016-09-26 12:29:08,320  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 12:29:08,323  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 12:29:08,719  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 12:29:08,723  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 12:29:18,732  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 12:29:18,776  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 12:29:18,776  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 12:29:19,156 ERROR [main] BaseClass:28 - Unable to setup driver: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'admins-Mac-mini.local', ip: '10.9.43.129', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: driver.version: ManageDriver
+ 2016-09-26 12:29:19,159  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 12:29:19,228  INFO [main] BaseClass:66 - Appium server stopped.
+ 2016-09-26 12:29:19,238  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 12:29:19,239  INFO [main] BaseClass:56 - Testing complete.
+ 2016-09-26 12:29:56,516  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 12:29:56,518  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 12:29:56,912  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 12:29:56,916  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 12:30:06,926  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 12:30:06,928  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 12:30:06,929  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 12:30:30,539  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-26 12:30:30,601  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-26 12:30:30,604  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-26 12:30:30,604  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-26 12:30:30,604  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 12:33:48,014  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 12:33:48,017  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 12:33:48,454  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 12:33:48,458  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 12:33:58,471  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 12:33:58,473  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 12:33:58,473  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 12:34:25,406  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-26 12:34:25,435  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-26 12:34:25,439  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-26 12:34:25,439  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-26 12:34:25,439  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 12:34:25,442  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-26 12:34:25,457  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 12:34:48,673  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 12:34:48,764  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 12:34:48,770  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 12:34:48,770  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 12:34:48,772  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-26 12:35:33,456  INFO [main] BaseClass:50 - Test case passed : testValidLoginWithGoogle
+ 2016-09-26 12:35:33,467  INFO [main] BaseClass:44 - Test case execution started : testDisplayDashboardAfterValidLogin
+ 2016-09-26 15:03:37,083  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 15:03:37,092  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 15:03:37,629  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 15:03:37,659  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 15:03:47,677  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 15:03:47,717  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 15:03:47,718  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 15:04:17,073  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-26 15:04:17,103  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-26 15:04:17,107  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-26 15:04:17,107  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-26 15:04:17,107  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 15:04:17,110  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-26 15:04:17,128  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 15:04:40,321  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 15:04:40,412  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 15:04:40,417  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 15:04:40,418  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 15:04:40,420  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-26 15:05:31,905  INFO [main] BaseClass:50 - Test case passed : testValidLoginWithGoogle
+ 2016-09-26 15:05:31,909  INFO [main] BaseClass:44 - Test case execution started : testDisplayDashboardAfterValidLogin
+ 2016-09-26 15:05:31,917  INFO [main] BaseClass:32 - Test case failed : testDisplayDashboardAfterValidLogin
+ 2016-09-26 15:05:34,229  INFO [main] BaseClass:21 - Screenshot taken.
+ 2016-09-26 15:05:34,259  INFO [main] BaseClass:14 - Test Finished :Test
+ 2016-09-26 15:05:34,310  INFO [main] BaseClass:66 - Appium server stopped.
+ 2016-09-26 15:05:34,327  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 15:05:34,330  INFO [main] BaseClass:56 - Testing complete.
+ 2016-09-26 15:06:44,307  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 15:06:44,312  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 15:06:44,864  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 15:06:44,870  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 15:06:54,880  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 15:06:54,919  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 15:06:54,919  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 15:07:18,301  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-26 15:07:18,346  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-26 15:07:18,352  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-26 15:07:18,352  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-26 15:07:18,353  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 15:07:18,364  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-26 15:07:18,391  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 15:07:41,404  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 15:07:41,474  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 15:07:41,481  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 15:07:41,481  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 15:07:41,483  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-26 15:08:24,921  INFO [main] BaseClass:50 - Test case passed : testValidLoginWithGoogle
+ 2016-09-26 15:08:24,923  INFO [main] BaseClass:44 - Test case execution started : testDisplayDashboardAfterValidLogin
+ 2016-09-26 15:08:24,942  INFO [main] BaseClass:32 - Test case failed : testDisplayDashboardAfterValidLogin
+ 2016-09-26 15:08:27,109  INFO [main] BaseClass:21 - Screenshot taken.
+ 2016-09-26 15:08:27,149  INFO [main] BaseClass:14 - Test Finished :Test
+ 2016-09-26 15:08:27,200  INFO [main] BaseClass:66 - Appium server stopped.
+ 2016-09-26 15:08:27,208  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 15:08:27,208  INFO [main] BaseClass:56 - Testing complete.
+ 2016-09-26 15:15:46,079  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 15:15:46,082  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 15:15:46,477  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 15:15:46,480  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 15:15:56,487  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 15:15:56,525  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 15:15:56,525  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 15:15:56,901 ERROR [main] BaseClass:28 - Unable to setup driver: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'admins-Mac-mini.local', ip: '10.9.43.129', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: driver.version: ManageDriver
+ 2016-09-26 15:15:56,904  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 15:15:56,907  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-26 15:15:56,916  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 15:15:56,935  INFO [main] BaseClass:32 - Test case failed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 15:15:56,939  INFO [main] BaseClass:32 - Test case failed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 15:15:56,957  INFO [main] BaseClass:14 - Test Finished :Test
+ 2016-09-26 15:17:45,150  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 15:17:45,153  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 15:17:45,589  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 15:17:45,593  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 15:17:55,604  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 15:17:55,607  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 15:17:55,607  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 15:19:11,110  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-26 15:19:11,149  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-26 15:19:11,153  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-26 15:19:11,153  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-26 15:19:11,153  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 15:19:11,156  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-26 15:19:11,175  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 15:19:34,321  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 15:19:34,399  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 15:19:34,406  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 15:19:34,407  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 15:19:34,408  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-26 15:20:19,847  INFO [main] BaseClass:50 - Test case passed : testValidLoginWithGoogle
+ 2016-09-26 15:20:19,851  INFO [main] BaseClass:44 - Test case execution started : testDisplayDashboardAfterValidLogin
+ 2016-09-26 15:20:19,870  INFO [main] BaseClass:32 - Test case failed : testDisplayDashboardAfterValidLogin
+ 2016-09-26 15:20:22,014  INFO [main] BaseClass:21 - Screenshot taken.
+ 2016-09-26 15:20:22,056  INFO [main] BaseClass:14 - Test Finished :Test
+ 2016-09-26 15:20:22,148  INFO [main] BaseClass:66 - Appium server stopped.
+ 2016-09-26 15:20:22,159  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 15:20:22,160  INFO [main] BaseClass:56 - Testing complete.
+ 2016-09-26 15:25:08,130  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 15:25:08,132  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 15:25:08,563  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 15:25:08,610  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 15:25:18,619  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 15:25:18,653  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 15:25:18,653  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 15:25:44,695  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-26 15:25:44,742  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-26 15:25:44,746  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-26 15:25:44,746  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-26 15:25:44,747  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 15:25:44,750  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-26 15:25:44,777  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 15:26:07,843  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 15:26:07,920  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 15:26:07,926  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 15:26:07,927  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 15:26:07,929  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-26 17:27:29,945  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 17:27:29,954  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 17:27:30,394  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 17:27:30,421  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 17:27:40,434  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 17:27:40,468  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 17:27:40,469  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 17:28:07,389  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-26 17:28:07,462  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-26 17:28:07,466  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-26 17:28:07,467  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-26 17:28:07,467  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 17:28:07,470  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-26 17:28:08,940  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 17:28:08,942  INFO [main] BaseClass:38 - Test case skipped : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 17:28:09,020  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 17:28:09,026  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 17:28:09,027  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 17:28:09,029  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-26 17:28:09,033  INFO [main] BaseClass:38 - Test case skipped : testValidLoginWithGoogle
+ 2016-09-26 17:28:09,039  INFO [main] BaseClass:44 - Test case execution started : testDisplayDashboardAfterValidLogin
+ 2016-09-26 17:28:09,041  INFO [main] BaseClass:38 - Test case skipped : testDisplayDashboardAfterValidLogin
+ 2016-09-26 17:28:09,047  INFO [main] BaseClass:44 - Test case execution started : childName
+ 2016-09-26 17:28:09,050  INFO [main] BaseClass:38 - Test case skipped : childName
+ 2016-09-26 17:28:09,126  INFO [main] BaseClass:14 - Test Finished :Test
+ 2016-09-26 17:28:52,746  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 17:28:52,751  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 17:28:53,279  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 17:28:53,367  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 17:29:03,380  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 17:29:03,403  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 17:29:03,404  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 17:29:31,776  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-26 17:29:31,892  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-26 17:29:31,897  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-26 17:29:31,897  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-26 17:29:31,897  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 17:29:31,901  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-26 17:29:34,538  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 17:29:34,540  INFO [main] BaseClass:38 - Test case skipped : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 17:29:34,619  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 17:29:34,626  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 17:29:34,627  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 17:29:34,629  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-26 17:29:34,631  INFO [main] BaseClass:38 - Test case skipped : testValidLoginWithGoogle
+ 2016-09-26 17:29:34,633  INFO [main] BaseClass:44 - Test case execution started : testDisplayDashboardAfterValidLogin
+ 2016-09-26 17:29:34,634  INFO [main] BaseClass:38 - Test case skipped : testDisplayDashboardAfterValidLogin
+ 2016-09-26 17:29:34,637  INFO [main] BaseClass:44 - Test case execution started : childName
+ 2016-09-26 17:29:34,639  INFO [main] BaseClass:38 - Test case skipped : childName
+ 2016-09-26 17:29:34,694  INFO [main] BaseClass:14 - Test Finished :Test
+ 2016-09-26 17:32:29,759  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 17:32:29,780  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 17:32:30,253  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 17:32:30,302  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 17:32:40,313  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 17:32:40,349  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 17:32:40,349  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 17:33:06,905  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-26 17:33:06,935  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-26 17:33:06,938  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-26 17:33:06,939  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-26 17:33:06,939  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 17:33:06,941  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-26 17:33:06,955  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 17:33:30,018  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 17:33:30,106  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 17:33:30,114  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 17:33:30,114  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 17:33:30,116  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-26 17:34:14,887  INFO [main] BaseClass:50 - Test case passed : testValidLoginWithGoogle
+ 2016-09-26 17:34:14,904  INFO [main] BaseClass:44 - Test case execution started : testDisplayDashboardAfterValidLogin
+ 2016-09-26 17:36:24,601  INFO [main] BaseClass:32 - Test case failed : testDisplayDashboardAfterValidLogin
+ 2016-09-26 17:36:26,855  INFO [main] BaseClass:21 - Screenshot taken.
+ 2016-09-26 17:36:28,297  INFO [main] BaseClass:44 - Test case execution started : childName
+ 2016-09-26 17:36:28,298  INFO [main] BaseClass:38 - Test case skipped : childName
+ 2016-09-26 17:36:28,342  INFO [main] BaseClass:14 - Test Finished :Test
+ 2016-09-26 17:36:28,438  INFO [main] BaseClass:66 - Appium server stopped.
+ 2016-09-26 17:36:28,442  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 17:36:28,442  INFO [main] BaseClass:56 - Testing complete.
+ 2016-09-26 17:38:20,263  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 17:38:20,266  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 17:38:20,712  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 17:38:20,716  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 17:38:30,729  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 17:38:30,999  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 17:38:30,999  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 17:38:55,660  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-26 17:38:55,711  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-26 17:38:55,717  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-26 17:38:55,718  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-26 17:38:55,718  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 17:38:55,722  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-26 17:38:55,740  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 17:39:18,683  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 17:39:18,779  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 17:39:18,786  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 17:39:18,787  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 17:39:18,793  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-26 17:40:11,497  INFO [main] BaseClass:32 - Test case failed : testValidLoginWithGoogle
+ 2016-09-26 17:40:13,662  INFO [main] BaseClass:21 - Screenshot taken.
+ 2016-09-26 17:40:13,665  INFO [main] BaseClass:44 - Test case execution started : testDisplayDashboardAfterValidLogin
+ 2016-09-26 17:48:20,321  INFO [main] BaseClass:50 - Test case passed : testDisplayDashboardAfterValidLogin
+ 2016-09-26 17:48:20,374  INFO [main] BaseClass:14 - Test Finished :Test
+ 2016-09-26 17:48:20,395  INFO [main] BaseClass:66 - Appium server stopped.
+ 2016-09-26 17:48:20,409  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 17:48:20,412  INFO [main] BaseClass:56 - Testing complete.
+ 2016-09-26 17:49:49,901  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 17:49:49,903  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 17:49:50,360  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 17:49:50,365  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 17:50:00,379  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 17:50:00,381  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 17:50:00,381  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 17:50:25,005  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-26 17:50:25,074  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-26 17:50:25,077  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-26 17:50:25,077  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-26 17:50:25,078  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 17:51:44,052  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 17:51:44,054  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 17:51:44,498  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 17:51:44,502  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 17:51:54,510  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 17:51:54,513  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 17:51:54,513  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 17:52:17,794  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-26 17:52:17,863  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-26 17:52:17,867  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-26 17:52:17,868  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-26 17:52:17,869  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 17:52:17,872  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-26 17:52:17,888  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 17:52:40,874  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 17:52:40,953  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 17:52:40,960  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 17:52:40,961  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 17:52:40,963  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-26 17:53:27,872  INFO [main] BaseClass:50 - Test case passed : testValidLoginWithGoogle
+ 2016-09-26 17:53:27,875  INFO [main] BaseClass:44 - Test case execution started : testDisplayDashboardAfterValidLogin
+ 2016-09-26 17:55:42,177  INFO [main] BaseClass:32 - Test case failed : testDisplayDashboardAfterValidLogin
+ 2016-09-26 17:55:44,426  INFO [main] BaseClass:21 - Screenshot taken.
+ 2016-09-26 17:55:58,446  INFO [main] BaseClass:44 - Test case execution started : childName
+ 2016-09-26 17:55:58,448  INFO [main] BaseClass:38 - Test case skipped : childName
+ 2016-09-26 17:55:58,501  INFO [main] BaseClass:14 - Test Finished :Test
+ 2016-09-26 17:55:58,544  INFO [main] BaseClass:66 - Appium server stopped.
+ 2016-09-26 17:55:58,566  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 17:55:58,567  INFO [main] BaseClass:56 - Testing complete.
+ 2016-09-26 17:57:23,939  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 17:57:23,943  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 17:57:24,015  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 17:57:24,018  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 17:57:24,575  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 17:57:24,579  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 17:57:24,593  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 17:57:24,605  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 17:57:34,601  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 17:57:34,603  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 17:57:34,604  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 17:57:34,621  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 17:57:34,623  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 17:57:34,623  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 17:57:58,940  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-26 17:57:58,984 ERROR [main] BaseClass:28 - Unable to setup driver: Driver is not ready, cannot execute timeouts. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'admins-Mac-mini.local', ip: '10.9.43.129', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/deepti/Documents/ios-Automation/workspace/MobiliyaAppiumFramework/Apps/EdvelopDock.ipa, networkConnectionEnabled=false, bundleId=net.agreeyamobility.Test-App, databaseEnabled=false, deviceName=Tushar, fullReset=true, platform=MAC, showIOSLog=true, desired={app=/Users/deepti/Documents/ios-Automation/workspace/MobiliyaAppiumFramework/Apps/EdvelopDock.ipa, showIOSLog=true, newCommandTimeout=15000, platformVersion=9.2, bundleId=net.agreeyamobility.Test-App, waitForAppScript=$.delay(5000); true;, platformName=iOS, udid=1dae97c7b2a2203799e620d2197a6165f6e65f10, deviceName=Tushar, fullReset=true, autoAcceptAlerts=true}, newCommandTimeout=15000, platformVersion=9.2, webStorageEnabled=false, locationContextEnabled=false, browserName=, takesScreenshot=true, waitForAppScript=$.delay(5000); true;, javascriptEnabled=true, platformName=iOS, udid=1dae97c7b2a2203799e620d2197a6165f6e65f10, autoAcceptAlerts=true}]
+Session ID: e6a01f96-0892-4da2-a70e-5731068686bc
+ 2016-09-26 17:57:58,985  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 17:57:58,989  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-26 17:57:59,004  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 17:57:59,256  INFO [main] BaseClass:32 - Test case failed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 17:57:59,271  INFO [main] BaseClass:32 - Test case failed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 17:57:59,302  INFO [main] BaseClass:14 - Test Finished :Test
+ 2016-09-26 17:58:25,428  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-26 17:58:25,441  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-26 17:58:25,445  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-26 17:58:25,446  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-26 17:58:25,446  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 17:58:25,449  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-26 17:58:25,466  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 17:58:48,602  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 17:58:48,687  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 17:58:48,693  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 17:58:48,693  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 17:58:48,695  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-26 17:59:39,332  INFO [main] BaseClass:50 - Test case passed : testValidLoginWithGoogle
+ 2016-09-26 17:59:39,334  INFO [main] BaseClass:44 - Test case execution started : testDisplayDashboardAfterValidLogin
+ 2016-09-26 18:00:59,470  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 18:00:59,472  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 18:00:59,933  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 18:00:59,946  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 18:01:09,959  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 18:01:09,961  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 18:01:09,961  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 18:01:35,309  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-26 18:01:35,319  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-26 18:01:35,322  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-26 18:01:35,322  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-26 18:01:35,322  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 18:01:35,325  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-26 18:01:35,338  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 18:01:58,421  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 18:01:58,501  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 18:01:58,508  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 18:01:58,509  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 18:01:58,510  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-26 18:02:39,190  INFO [main] BaseClass:50 - Test case passed : testValidLoginWithGoogle
+ 2016-09-26 18:02:39,192  INFO [main] BaseClass:44 - Test case execution started : testDisplayDashboardAfterValidLogin
+ 2016-09-26 18:04:49,095  INFO [main] BaseClass:32 - Test case failed : testDisplayDashboardAfterValidLogin
+ 2016-09-26 18:04:51,248  INFO [main] BaseClass:21 - Screenshot taken.
+ 2016-09-26 18:04:52,659  INFO [main] BaseClass:44 - Test case execution started : childName
+ 2016-09-26 18:04:52,661  INFO [main] BaseClass:38 - Test case skipped : childName
+ 2016-09-26 18:04:52,702  INFO [main] BaseClass:14 - Test Finished :Test
+ 2016-09-26 18:04:52,748  INFO [main] BaseClass:66 - Appium server stopped.
+ 2016-09-26 18:04:52,754  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 18:04:52,754  INFO [main] BaseClass:56 - Testing complete.
+ 2016-09-26 18:05:58,863  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 18:05:58,866  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 18:05:59,302  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 18:05:59,306  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 18:06:09,318  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 18:06:09,321  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 18:06:09,321  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 18:06:09,755 ERROR [main] BaseClass:28 - Unable to setup driver: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'admins-Mac-mini.local', ip: '10.9.43.129', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: driver.version: ManageDriver
+ 2016-09-26 18:06:09,758  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 18:06:09,761  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-26 18:06:09,772  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 18:06:09,797  INFO [main] BaseClass:32 - Test case failed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 18:06:09,803  INFO [main] BaseClass:32 - Test case failed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 18:06:09,827  INFO [main] BaseClass:14 - Test Finished :Test
+ 2016-09-26 18:07:16,185  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 18:07:16,188  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 18:07:16,658  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 18:07:16,664  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 18:07:26,675  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 18:07:26,678  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 18:07:26,678  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 18:07:49,641  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-26 18:07:49,695  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-26 18:07:49,701  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-26 18:07:49,702  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-26 18:07:49,702  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 18:07:49,706  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-26 18:07:49,724  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 18:08:12,714  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 18:08:12,797  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 18:08:12,803  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 18:08:12,804  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 18:08:12,806  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-26 18:08:53,271  INFO [main] BaseClass:50 - Test case passed : testValidLoginWithGoogle
+ 2016-09-26 18:08:53,273  INFO [main] BaseClass:44 - Test case execution started : testDisplayDashboardAfterValidLogin
+ 2016-09-26 18:15:07,820  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 18:15:07,824  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 18:15:08,312  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 18:15:08,332  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 18:15:18,346  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 18:15:18,348  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 18:15:18,348  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 18:15:46,729  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-26 18:15:46,774  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-26 18:15:46,778  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-26 18:15:46,779  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-26 18:15:46,779  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 18:15:46,782  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-26 18:15:46,803  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 18:16:09,857  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 18:16:09,946  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 18:16:09,952  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 18:16:09,953  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 18:16:09,954  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-26 18:17:03,066  INFO [main] BaseClass:50 - Test case passed : testValidLoginWithGoogle
+ 2016-09-26 18:17:03,086  INFO [main] BaseClass:44 - Test case execution started : testDisplayDashboardAfterValidLogin
+ 2016-09-26 18:18:45,453  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 18:18:45,485  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 18:18:46,019  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 18:18:46,051  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 18:18:56,069  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 18:18:56,088  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 18:18:56,088  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 18:19:23,048  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-26 18:19:23,119  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-26 18:19:23,122  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-26 18:19:23,123  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-26 18:19:23,123  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 18:19:23,128  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-26 18:19:23,147  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 18:19:46,034  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 18:19:46,240  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 18:19:46,249  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 18:19:46,250  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 18:19:46,255  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-26 18:20:28,001  INFO [main] BaseClass:50 - Test case passed : testValidLoginWithGoogle
+ 2016-09-26 18:20:28,011  INFO [main] BaseClass:44 - Test case execution started : testDisplayDashboardAfterValidLogin
+ 2016-09-26 19:08:13,619  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 19:08:13,673  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 19:08:14,155  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 19:08:14,285  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 19:08:24,297  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 19:08:24,331  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 19:08:24,346  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 19:08:52,538  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-26 19:08:52,598  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-26 19:08:52,602  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-26 19:08:52,602  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-26 19:08:52,603  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 19:08:52,605  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-26 19:08:52,621  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 19:09:15,618  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 19:09:15,703  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 19:09:15,708  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 19:09:15,709  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 19:09:15,710  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-26 19:09:55,231  INFO [main] BaseClass:50 - Test case passed : testValidLoginWithGoogle
+ 2016-09-26 19:09:55,234  INFO [main] BaseClass:44 - Test case execution started : testDisplayDashboardAfterValidLogin
+ 2016-09-26 19:12:03,923  INFO [main] BaseClass:32 - Test case failed : testDisplayDashboardAfterValidLogin
+ 2016-09-26 19:12:06,078  INFO [main] BaseClass:21 - Screenshot taken.
+ 2016-09-26 19:12:07,507  INFO [main] BaseClass:44 - Test case execution started : childName
+ 2016-09-26 19:12:07,508  INFO [main] BaseClass:38 - Test case skipped : childName
+ 2016-09-26 19:12:07,599  INFO [main] BaseClass:14 - Test Finished :Test
+ 2016-09-26 19:12:07,720  INFO [main] BaseClass:66 - Appium server stopped.
+ 2016-09-26 19:12:07,724  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 19:12:07,725  INFO [main] BaseClass:56 - Testing complete.
+ 2016-09-26 19:18:14,236  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 19:18:14,245  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 19:18:14,697  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 19:18:14,701  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 19:18:24,710  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 19:18:24,748  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 19:18:24,748  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 19:19:32,128 ERROR [main] BaseClass:28 - Unable to setup driver: An unknown server-side error occurred while processing the command. Original error: We exceeded the number of retries allowed for instruments to successfully start; failing launch (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 67.03 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'admins-Mac-mini.local', ip: '10.9.43.129', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: io.appium.java_client.ios.IOSDriver
+ 2016-09-26 19:19:32,148  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 19:19:32,151  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-26 19:19:32,169  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 19:19:32,232  INFO [main] BaseClass:32 - Test case failed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 19:19:32,249  INFO [main] BaseClass:32 - Test case failed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 19:19:32,303  INFO [main] BaseClass:14 - Test Finished :Test
+ 2016-09-26 19:19:58,548  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 19:19:58,551  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 19:19:59,073  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 19:19:59,102  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 19:20:09,117  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 19:20:09,161  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 19:20:09,161  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 19:21:15,480 ERROR [main] BaseClass:28 - Unable to setup driver: An unknown server-side error occurred while processing the command. Original error: We exceeded the number of retries allowed for instruments to successfully start; failing launch (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 65.96 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'admins-Mac-mini.local', ip: '10.9.43.129', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: io.appium.java_client.ios.IOSDriver
+ 2016-09-26 19:21:15,595  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 19:21:15,599  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-26 19:21:15,622  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 19:21:15,747  INFO [main] BaseClass:32 - Test case failed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 19:21:15,774  INFO [main] BaseClass:32 - Test case failed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 19:21:15,828  INFO [main] BaseClass:14 - Test Finished :Test
+ 2016-09-26 19:22:30,594  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 19:22:30,596  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 19:22:31,050  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 19:22:31,104  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 19:22:41,113  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 19:22:41,151  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 19:22:41,151  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 19:23:08,151  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-26 19:23:08,223  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-26 19:23:08,227  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-26 19:23:08,228  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-26 19:23:08,228  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 19:23:08,231  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-26 19:23:08,248  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 19:23:31,349  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 19:23:31,546  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 19:23:31,581  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 19:23:31,582  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 19:23:31,584  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-26 19:24:07,644  INFO [main] BaseClass:50 - Test case passed : testValidLoginWithGoogle
+ 2016-09-26 19:24:07,663  INFO [main] BaseClass:44 - Test case execution started : testDisplayDashboardAfterValidLogin
+ 2016-09-26 19:24:56,007  INFO [main] BaseClass:32 - Test case failed : testDisplayDashboardAfterValidLogin
+ 2016-09-26 19:24:56,071  INFO [main] BaseClass:32 - Test case failed : testDisplayDashboardAfterValidLogin
+ 2016-09-26 19:24:56,169  INFO [main] BaseClass:14 - Test Finished :Test
+ 2016-09-26 19:27:39,675  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 19:27:39,684  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 19:27:40,301  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 19:27:40,340  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 19:27:50,360  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 19:27:50,376  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 19:27:50,376  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 19:28:20,064  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-26 19:28:20,129  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-26 19:28:20,135  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-26 19:28:20,136  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-26 19:28:20,136  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 19:28:20,139  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-26 19:28:20,155  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 19:28:43,161  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 19:28:43,247  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 19:28:43,253  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 19:28:43,254  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 19:28:43,255  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-26 19:29:19,771  INFO [main] BaseClass:50 - Test case passed : testValidLoginWithGoogle
+ 2016-09-26 19:29:19,774  INFO [main] BaseClass:44 - Test case execution started : testDisplayDashboardAfterValidLogin
+ 2016-09-26 19:37:49,437  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 19:37:49,457  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 19:37:50,165  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 19:37:50,224  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 19:38:00,245  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 19:38:00,260  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 19:38:00,260  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 19:38:30,948  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-26 19:38:31,014  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-26 19:38:31,020  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-26 19:38:31,021  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-26 19:38:31,021  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 19:38:31,025  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-26 19:38:31,043  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 19:38:54,227  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 19:38:54,309  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 19:38:54,314  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 19:38:54,315  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 19:38:54,317  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-26 19:39:33,667  INFO [main] BaseClass:50 - Test case passed : testValidLoginWithGoogle
+ 2016-09-26 19:39:33,682  INFO [main] BaseClass:44 - Test case execution started : testDisplayDashboardAfterValidLogin
+ 2016-09-26 19:40:43,329  INFO [main] BaseClass:32 - Test case failed : testDisplayDashboardAfterValidLogin
+ 2016-09-26 19:40:43,378  INFO [main] BaseClass:32 - Test case failed : testDisplayDashboardAfterValidLogin
+ 2016-09-26 19:40:43,478  INFO [main] BaseClass:14 - Test Finished :Test
+ 2016-09-26 19:59:14,828  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 19:59:14,838  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 19:59:15,315  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 19:59:15,349  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 19:59:25,360  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 19:59:25,396  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 19:59:25,396  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 19:59:58,588  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-26 19:59:58,617  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-26 19:59:58,620  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-26 19:59:58,620  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-26 19:59:58,620  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 19:59:58,622  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-26 19:59:58,635  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 20:00:21,772  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 20:00:21,845  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 20:00:21,850  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 20:00:21,851  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 20:00:21,853  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-26 20:01:01,313  INFO [main] BaseClass:50 - Test case passed : testValidLoginWithGoogle
+ 2016-09-26 20:01:01,341  INFO [main] BaseClass:44 - Test case execution started : testDisplayDashboardAfterValidLogin
+ 2016-09-26 20:01:05,705  INFO [main] BaseClass:32 - Test case failed : testDisplayDashboardAfterValidLogin
+ 2016-09-26 20:01:07,743  INFO [main] BaseClass:21 - Screenshot taken.
+ 2016-09-26 20:01:09,213  INFO [main] BaseClass:44 - Test case execution started : childName
+ 2016-09-26 20:01:09,215  INFO [main] BaseClass:38 - Test case skipped : childName
+ 2016-09-26 20:01:09,318  INFO [main] BaseClass:14 - Test Finished :Test
+ 2016-09-26 20:01:09,394  INFO [main] BaseClass:66 - Appium server stopped.
+ 2016-09-26 20:01:09,407  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 20:01:09,407  INFO [main] BaseClass:56 - Testing complete.
+ 2016-09-26 20:03:09,619  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 20:03:09,622  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 20:03:10,040  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 20:03:10,044  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 20:03:20,053  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 20:03:20,098  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 20:03:20,098  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 20:03:45,948  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-26 20:03:46,013  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-26 20:03:46,017  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-26 20:03:46,017  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-26 20:03:46,017  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 20:03:46,020  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-26 20:03:46,036  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 20:04:08,998  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 20:04:09,077  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 20:04:09,084  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 20:04:09,085  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 20:04:09,086  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-26 20:04:51,961  INFO [main] BaseClass:50 - Test case passed : testValidLoginWithGoogle
+ 2016-09-26 20:04:51,962  INFO [main] BaseClass:44 - Test case execution started : testDisplayDashboardAfterValidLogin
+ 2016-09-26 20:05:01,218  INFO [main] BaseClass:50 - Test case passed : testDisplayDashboardAfterValidLogin
+ 2016-09-26 20:05:02,693  INFO [main] BaseClass:44 - Test case execution started : childName
+ 2016-09-26 20:05:02,694  INFO [main] BaseClass:38 - Test case skipped : childName
+ 2016-09-26 20:05:02,727  INFO [main] BaseClass:14 - Test Finished :Test
+ 2016-09-26 20:05:02,819  INFO [main] BaseClass:66 - Appium server stopped.
+ 2016-09-26 20:05:02,836  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 20:05:02,837  INFO [main] BaseClass:56 - Testing complete.
+ 2016-09-26 20:05:56,932  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 20:05:56,934  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 20:05:57,364  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 20:05:57,390  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 20:06:07,398  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 20:06:07,433  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 20:06:07,433  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 20:06:33,183  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-26 20:06:33,211  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-26 20:06:33,215  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-26 20:06:33,215  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-26 20:06:33,215  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 20:06:33,218  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-26 20:06:33,232  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 20:06:56,394  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 20:06:56,464  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 20:06:56,470  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 20:06:56,471  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 20:06:56,472  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-26 20:07:35,530  INFO [main] BaseClass:50 - Test case passed : testValidLoginWithGoogle
+ 2016-09-26 20:07:35,532  INFO [main] BaseClass:44 - Test case execution started : testDisplayDashboardAfterValidLogin
+ 2016-09-26 20:07:44,836  INFO [main] BaseClass:50 - Test case passed : testDisplayDashboardAfterValidLogin
+ 2016-09-26 20:07:46,270  INFO [main] BaseClass:44 - Test case execution started : childName
+ 2016-09-26 20:07:46,271  INFO [main] BaseClass:38 - Test case skipped : childName
+ 2016-09-26 20:07:46,307  INFO [main] BaseClass:14 - Test Finished :Test
+ 2016-09-26 20:07:46,410  INFO [main] BaseClass:66 - Appium server stopped.
+ 2016-09-26 20:07:46,427  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 20:07:46,427  INFO [main] BaseClass:56 - Testing complete.
+ 2016-09-26 20:08:44,023  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 20:08:44,027  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 20:08:44,476  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 20:08:44,481  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 20:08:54,493  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 20:08:54,547  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 20:08:54,548  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 20:08:55,039 ERROR [main] BaseClass:28 - Unable to setup driver: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'admins-Mac-mini.local', ip: '10.9.43.129', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: driver.version: ManageDriver
+ 2016-09-26 20:08:55,042  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 20:08:55,044  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-26 20:08:55,059  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 20:08:55,084  INFO [main] BaseClass:32 - Test case failed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 20:08:55,091  INFO [main] BaseClass:32 - Test case failed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 20:08:55,114  INFO [main] BaseClass:14 - Test Finished :Test
+ 2016-09-26 20:09:26,237  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 20:09:26,240  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 20:09:26,681  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 20:09:26,686  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 20:09:36,699  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 20:09:36,702  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 20:09:36,702  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 20:10:02,414  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-26 20:10:02,447  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-26 20:10:02,452  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-26 20:10:02,452  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-26 20:10:02,452  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 20:10:02,455  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-26 20:10:02,473  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 20:10:25,499  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 20:10:25,584  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 20:10:25,590  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 20:10:25,591  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 20:10:25,593  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-26 20:11:04,614  INFO [main] BaseClass:50 - Test case passed : testValidLoginWithGoogle
+ 2016-09-26 20:11:04,624  INFO [main] BaseClass:44 - Test case execution started : testDisplayDashboardAfterValidLogin
+ 2016-09-26 20:23:44,511  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 20:23:44,514  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 20:23:45,031  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 20:23:45,064  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 20:23:55,081  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 20:23:55,101  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 20:23:55,101  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 20:24:25,350  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-26 20:24:25,398  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-26 20:24:25,411  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-26 20:24:25,412  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-26 20:24:25,412  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 20:24:25,416  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-26 20:24:25,435  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 20:24:48,474  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 20:24:48,550  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 20:24:48,557  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 20:24:48,557  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 20:24:48,559  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-26 20:25:25,157  INFO [main] BaseClass:50 - Test case passed : testValidLoginWithGoogle
+ 2016-09-26 20:25:25,168  INFO [main] BaseClass:44 - Test case execution started : testDisplayDashboardAfterValidLogin
+ 2016-09-26 20:27:25,697  INFO [main] BaseClass:32 - Test case failed : testDisplayDashboardAfterValidLogin
+ 2016-09-26 20:27:27,788  INFO [main] BaseClass:21 - Screenshot taken.
+ 2016-09-26 20:30:13,826  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 20:30:13,836  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 20:30:14,338  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 20:30:14,424  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 20:30:24,438  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 20:30:24,483  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 20:30:24,483  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 20:30:54,664  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-26 20:30:54,727  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-26 20:30:54,733  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-26 20:30:54,733  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-26 20:30:54,734  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 20:30:54,737  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-26 20:30:54,753  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 20:31:17,870  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 20:31:17,956  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 20:31:17,963  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 20:31:17,964  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 20:31:17,965  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-26 20:32:01,272  INFO [main] BaseClass:50 - Test case passed : testValidLoginWithGoogle
+ 2016-09-26 20:32:01,306  INFO [main] BaseClass:44 - Test case execution started : testDisplayDashboardAfterValidLogin
+ 2016-09-26 20:32:51,895  INFO [main] BaseClass:32 - Test case failed : testDisplayDashboardAfterValidLogin
+ 2016-09-26 20:32:53,989  INFO [main] BaseClass:21 - Screenshot taken.
+ 2016-09-26 20:33:19,556  INFO [main] BaseClass:44 - Test case execution started : childName
+ 2016-09-26 20:33:19,558  INFO [main] BaseClass:38 - Test case skipped : childName
+ 2016-09-26 20:33:19,604  INFO [main] BaseClass:14 - Test Finished :Test
+ 2016-09-26 20:33:19,693  INFO [main] BaseClass:66 - Appium server stopped.
+ 2016-09-26 20:33:19,704  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 20:33:19,704  INFO [main] BaseClass:56 - Testing complete.
+ 2016-09-26 20:33:55,328  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 20:33:55,332  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 20:33:55,779  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 20:33:55,783  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 20:34:05,793  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 20:34:05,838  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 20:34:05,839  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 20:34:31,522  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-26 20:34:31,552  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-26 20:34:31,558  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-26 20:34:31,558  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-26 20:34:31,559  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 20:34:31,562  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-26 20:34:31,590  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 20:34:54,712  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 20:34:54,795  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 20:34:54,801  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 20:34:54,802  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 20:34:54,804  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-26 20:35:31,344  INFO [main] BaseClass:50 - Test case passed : testValidLoginWithGoogle
+ 2016-09-26 20:35:31,347  INFO [main] BaseClass:44 - Test case execution started : testDisplayDashboardAfterValidLogin
+ 2016-09-26 20:46:50,859  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 20:46:50,869  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 20:46:51,400  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 20:46:51,435  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 20:47:01,450  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 20:47:01,471  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 20:47:01,471  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 20:47:32,033  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-26 20:47:32,139  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-26 20:47:32,147  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-26 20:47:32,147  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-26 20:47:32,148  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 20:47:32,153  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-26 20:47:32,178  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 20:47:55,065  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 20:47:55,147  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 20:47:55,153  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 20:47:55,154  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 20:47:55,156  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-26 20:48:40,942  INFO [main] BaseClass:50 - Test case passed : testValidLoginWithGoogle
+ 2016-09-26 20:48:40,960  INFO [main] BaseClass:44 - Test case execution started : testDisplayDashboardAfterValidLogin
+ 2016-09-26 20:49:36,434  INFO [main] BaseClass:32 - Test case failed : testDisplayDashboardAfterValidLogin
+ 2016-09-26 20:49:38,221  INFO [main] BaseClass:21 - Screenshot taken.
+ 2016-09-26 20:50:07,083  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 20:50:07,115  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 20:50:07,651  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 20:50:07,681  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 20:50:17,710  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 20:50:17,728  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 20:50:17,729  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 20:50:48,607  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-26 20:50:48,670  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-26 20:50:48,676  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-26 20:50:48,676  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-26 20:50:48,676  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 20:50:48,680  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-26 20:50:48,700  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 20:51:11,809  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 20:51:11,892  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 20:51:11,898  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 20:51:11,899  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 20:51:11,900  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-26 20:51:55,070  INFO [main] BaseClass:50 - Test case passed : testValidLoginWithGoogle
+ 2016-09-26 20:51:55,084  INFO [main] BaseClass:44 - Test case execution started : testDisplayDashboardAfterValidLogin
+ 2016-09-26 20:53:35,796  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 20:53:35,873  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 20:53:36,419  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 20:53:36,729  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 20:53:46,744  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 20:53:46,773  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 20:53:46,774  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 20:54:11,705  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-26 20:54:11,743  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-26 20:54:11,748  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-26 20:54:11,748  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-26 20:54:11,748  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 20:54:11,752  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-26 20:54:11,771  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 20:54:34,892  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 20:54:34,972  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 20:54:34,980  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 20:54:34,980  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 20:54:34,983  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-26 20:55:14,617  INFO [main] BaseClass:50 - Test case passed : testValidLoginWithGoogle
+ 2016-09-26 20:55:14,619  INFO [main] BaseClass:44 - Test case execution started : testDisplayDashboardAfterValidLogin
+ 2016-09-26 21:01:26,857  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 21:01:26,889  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 21:01:27,373  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 21:01:27,445  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 21:01:37,463  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 21:01:37,501  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 21:01:37,501  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 21:02:05,786  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-26 21:02:05,863  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-26 21:02:05,868  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-26 21:02:05,869  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-26 21:02:05,869  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 21:02:05,872  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-26 21:02:05,892  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 21:02:28,901  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 21:02:28,980  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 21:02:28,986  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 21:02:28,987  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 21:02:28,988  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-26 21:03:12,544  INFO [main] BaseClass:50 - Test case passed : testValidLoginWithGoogle
+ 2016-09-26 21:03:12,558  INFO [main] BaseClass:44 - Test case execution started : testDisplayDashboardAfterValidLogin
+ 2016-09-26 21:03:31,407  INFO [main] BaseClass:32 - Test case failed : testDisplayDashboardAfterValidLogin
+ 2016-09-26 21:03:33,810  INFO [main] BaseClass:21 - Screenshot taken.
+ 2016-09-26 21:07:26,671  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-26 21:07:26,704  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-26 21:07:27,209  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 21:07:27,248  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-26 21:07:37,262  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-26 21:07:37,315  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-26 21:07:37,316  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-26 21:08:06,921  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-26 21:08:07,008  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-26 21:08:07,013  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-26 21:08:07,013  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-26 21:08:07,013  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-26 21:08:07,016  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-26 21:08:07,034  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 21:08:30,057  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-26 21:08:30,136  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-26 21:08:30,143  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 21:08:30,143  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-26 21:08:30,147  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-26 21:09:08,712  INFO [main] BaseClass:50 - Test case passed : testValidLoginWithGoogle
+ 2016-09-26 21:09:08,728  INFO [main] BaseClass:44 - Test case execution started : testDisplayDashboardAfterValidLogin
+ 2016-09-26 21:09:31,076  INFO [main] BaseClass:32 - Test case failed : testDisplayDashboardAfterValidLogin
+ 2016-09-26 21:09:33,031  INFO [main] BaseClass:21 - Screenshot taken.
+ 2016-09-27 10:53:16,407  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-27 10:53:16,417  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-27 10:53:16,883  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-27 10:53:16,953  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-27 10:53:26,968  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-27 10:53:27,008  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-27 10:53:27,008  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-27 10:54:04,142  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-27 10:54:04,233  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-27 10:54:04,237  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-27 10:54:04,237  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-27 10:54:04,238  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-27 10:54:04,240  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-27 10:54:04,259  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-27 10:54:27,408  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-27 10:54:27,493  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-27 10:54:27,500  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-27 10:54:27,501  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-27 10:54:27,502  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-27 10:55:15,470  INFO [main] BaseClass:50 - Test case passed : testValidLoginWithGoogle
+ 2016-09-27 10:55:15,486  INFO [main] BaseClass:44 - Test case execution started : testDisplayDashboardAfterValidLogin
+ 2016-09-27 10:57:51,104  INFO [main] BaseClass:32 - Test case failed : testDisplayDashboardAfterValidLogin
+ 2016-09-27 10:57:53,243  INFO [main] BaseClass:21 - Screenshot taken.
+ 2016-09-27 11:00:51,389  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-27 11:00:51,393  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-27 11:00:51,921  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-27 11:00:51,953  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-27 11:01:01,975  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-27 11:01:02,012  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-27 11:01:02,012  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-27 11:01:31,878  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-27 11:01:31,897  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-27 11:01:31,901  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-27 11:01:31,901  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-27 11:01:31,902  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-27 11:01:31,904  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-27 11:01:31,922  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-27 11:01:55,031  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-27 11:01:55,105  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-27 11:01:55,110  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-27 11:01:55,111  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-27 11:01:55,113  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-27 11:02:57,939  INFO [main] BaseClass:50 - Test case passed : testValidLoginWithGoogle
+ 2016-09-27 11:02:57,946  INFO [main] BaseClass:44 - Test case execution started : testDisplayDashboardAfterValidLogin
+ 2016-09-27 11:04:29,273  INFO [main] BaseClass:32 - Test case failed : testDisplayDashboardAfterValidLogin
+ 2016-09-27 11:04:31,621  INFO [main] BaseClass:21 - Screenshot taken.
+ 2016-09-27 11:04:41,068  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-27 11:04:41,089  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-27 11:04:41,655  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-27 11:04:41,689  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-27 11:04:51,706  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-27 11:04:51,725  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-27 11:04:51,725  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-27 11:05:20,382  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-27 11:05:20,455  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-27 11:05:20,460  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-27 11:05:20,460  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-27 11:05:20,460  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-27 11:05:20,463  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-27 11:05:20,480  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-27 11:05:43,600  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-27 11:05:43,691  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-27 11:05:43,697  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-27 11:05:43,698  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-27 11:05:43,699  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-27 11:11:22,427  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-27 11:11:22,448  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-27 11:11:23,041  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-27 11:11:23,092  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-27 11:11:33,119  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-27 11:11:33,150  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-27 11:11:33,150  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-27 11:12:02,618  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-27 11:12:02,669  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-27 11:12:02,675  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-27 11:12:02,676  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-27 11:12:02,676  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-27 11:12:02,682  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-27 11:12:02,703  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-27 11:12:25,742  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-27 11:12:25,822  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-27 11:12:25,828  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-27 11:12:25,828  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-27 11:12:25,829  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-27 11:13:14,273  INFO [main] BaseClass:50 - Test case passed : testValidLoginWithGoogle
+ 2016-09-27 11:13:14,284  INFO [main] BaseClass:44 - Test case execution started : testDisplayDashboardAfterValidLogin
+ 2016-09-27 11:15:28,437 ERROR [main] BaseClass:70 - Unable to select: Timed out after 120 seconds waiting for visibility of all [[[IOSDriver:  on MAC (034356e7-e0f7-4350-bc75-f4896c748a31)] -> xpath: //UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell], [[IOSDriver:  on MAC (034356e7-e0f7-4350-bc75-f4896c748a31)] -> xpath: //UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell], [[IOSDriver:  on MAC (034356e7-e0f7-4350-bc75-f4896c748a31)] -> xpath: //UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell], [[IOSDriver:  on MAC (034356e7-e0f7-4350-bc75-f4896c748a31)] -> xpath: //UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell], [[IOSDriver:  on MAC (034356e7-e0f7-4350-bc75-f4896c748a31)] -> xpath: //UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell], [[IOSDriver:  on MAC (034356e7-e0f7-4350-bc75-f4896c748a31)] -> xpath: //UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell], [[IOSDriver:  on MAC (034356e7-e0f7-4350-bc75-f4896c748a31)] -> xpath: //UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell]]
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'admins-Mac-mini.local', ip: '10.9.43.129', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_101'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/deepti/Documents/ios-Automation/workspace/MobiliyaAppiumFramework/Apps/EdvelopDock.ipa, networkConnectionEnabled=false, bundleId=net.agreeyamobility.Test-App, databaseEnabled=false, deviceName=Tushar, fullReset=true, platform=MAC, showIOSLog=true, desired={app=/Users/deepti/Documents/ios-Automation/workspace/MobiliyaAppiumFramework/Apps/EdvelopDock.ipa, showIOSLog=true, newCommandTimeout=15000, platformVersion=9.2, bundleId=net.agreeyamobility.Test-App, waitForAppScript=$.delay(5000); true;, platformName=iOS, udid=1dae97c7b2a2203799e620d2197a6165f6e65f10, deviceName=Tushar, fullReset=true, autoAcceptAlerts=true}, newCommandTimeout=15000, platformVersion=9.2, webStorageEnabled=false, locationContextEnabled=false, browserName=, takesScreenshot=true, waitForAppScript=$.delay(5000); true;, javascriptEnabled=true, platformName=iOS, udid=1dae97c7b2a2203799e620d2197a6165f6e65f10, autoAcceptAlerts=true}]
+Session ID: 034356e7-e0f7-4350-bc75-f4896c748a31
+ 2016-09-27 11:15:32,126  INFO [main] BaseClass:50 - Test case passed : testDisplayDashboardAfterValidLogin
+ 2016-09-27 11:16:45,596  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-27 11:16:45,606  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-27 11:16:46,150  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-27 11:16:46,239  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-27 11:16:56,253  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-27 11:16:56,338  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-27 11:16:56,338  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-27 11:17:26,076  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-27 11:17:26,126  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-27 11:17:26,131  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-27 11:17:26,133  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-27 11:17:26,133  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-27 11:17:26,138  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-27 11:17:26,155  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-27 11:17:49,160  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-27 11:17:49,247  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-27 11:17:49,253  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-27 11:17:49,254  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-27 11:17:49,255  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-27 11:24:48,911  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-27 11:24:48,921  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-27 11:24:49,407  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-27 11:24:49,443  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-27 11:24:59,454  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-27 11:24:59,490  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-27 11:24:59,490  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-27 11:25:27,719  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-27 11:25:27,758  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-27 11:25:27,763  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-27 11:25:27,763  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-27 11:25:27,763  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-27 11:25:27,766  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-27 11:25:27,784  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-27 11:25:39,978  INFO [main] BaseClass:32 - Test case failed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-27 11:25:53,705  INFO [main] BaseClass:21 - Screenshot taken.
+ 2016-09-27 11:25:53,811  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-27 11:25:53,819  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-27 11:25:53,820  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-27 11:25:53,822  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-27 11:25:57,172  INFO [main] BaseClass:32 - Test case failed : testValidLoginWithGoogle
+ 2016-09-27 11:26:10,862  INFO [main] BaseClass:21 - Screenshot taken.
+ 2016-09-27 11:26:10,879  INFO [main] BaseClass:44 - Test case execution started : testDisplayDashboardAfterValidLogin
+ 2016-09-27 11:26:47,027  INFO [main] BaseClass:32 - Test case failed : testDisplayDashboardAfterValidLogin
+ 2016-09-27 11:27:00,774  INFO [main] BaseClass:21 - Screenshot taken.
+ 2016-09-27 11:27:12,317  INFO [main] BaseClass:44 - Test case execution started : childName
+ 2016-09-27 11:27:12,320  INFO [main] BaseClass:38 - Test case skipped : childName
+ 2016-09-27 11:27:12,419  INFO [main] BaseClass:14 - Test Finished :Test
+ 2016-09-27 11:27:12,642  INFO [main] BaseClass:66 - Appium server stopped.
+ 2016-09-27 11:27:12,649  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-27 11:27:12,649  INFO [main] BaseClass:56 - Testing complete.
+ 2016-09-27 11:27:46,046  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-27 11:27:46,051  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-27 11:27:46,592  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-27 11:27:46,615  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-27 11:27:56,627  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-27 11:27:56,682  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-27 11:27:56,682  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-27 11:28:23,554  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-27 11:28:23,603  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-27 11:28:23,607  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-27 11:28:23,607  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-27 11:28:23,607  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-27 11:29:09,202  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-27 11:29:09,206  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-27 11:29:09,761  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-27 11:29:09,801  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-27 11:29:46,139  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-27 11:29:46,141  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-27 11:29:46,630  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-27 11:29:46,634  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-27 11:29:56,644  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-27 11:29:56,694  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-27 11:29:56,694  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-27 11:30:21,792  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-27 11:30:21,844  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-27 11:30:21,850  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-27 11:30:21,851  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-27 11:30:21,851  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-27 11:30:21,854  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-27 11:30:21,882  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-27 11:30:44,930  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-27 11:30:45,012  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-27 11:30:45,018  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-27 11:30:45,019  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-27 11:30:45,021  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-27 11:32:22,986  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-27 11:32:22,989  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-27 11:32:23,430  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-27 11:32:23,434  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-27 11:32:33,446  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-27 11:32:33,449  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-27 11:32:33,449  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-27 11:32:57,400  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-27 11:32:57,441  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-27 11:32:57,446  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-27 11:32:57,447  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-27 11:32:57,447  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-27 11:32:57,450  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-27 11:32:57,486  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-27 11:33:20,548  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-27 11:33:20,640  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-27 11:33:20,646  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-27 11:33:20,647  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-27 11:33:20,649  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-27 11:34:07,867  INFO [main] BaseClass:50 - Test case passed : testValidLoginWithGoogle
+ 2016-09-27 11:34:07,870  INFO [main] BaseClass:44 - Test case execution started : testDisplayDashboardAfterValidLogin
+ 2016-09-27 11:37:59,940  INFO [main] BaseClass:50 - Test case passed : testDisplayDashboardAfterValidLogin
+ 2016-09-27 11:39:58,389  INFO [main] BaseClass:44 - Test case execution started : childName
+ 2016-09-27 11:39:58,391  INFO [main] BaseClass:38 - Test case skipped : childName
+ 2016-09-27 11:39:58,451  INFO [main] BaseClass:14 - Test Finished :Test
+ 2016-09-27 11:39:58,518  INFO [main] BaseClass:66 - Appium server stopped.
+ 2016-09-27 11:39:58,534  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-27 11:39:58,535  INFO [main] BaseClass:56 - Testing complete.
+ 2016-09-27 11:46:59,790  INFO [main] BaseClass:30 - Device is connected and ready to use.
+ 2016-09-27 11:46:59,794  INFO [main] BaseClass:26 - Device info: [Platform : iOS, Device Name: Tushar, Device UDID: 1dae97c7b2a2203799e620d2197a6165f6e65f10]
+ 2016-09-27 11:47:00,252  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-27 11:47:00,256  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-27 11:47:10,266  INFO [main] BaseClass:34 - IOS webkit debug proxy service started.
+ 2016-09-27 11:47:10,302  INFO [main] BaseClass:36 - Device capabilities Specified.
+ 2016-09-27 11:47:10,303  INFO [main] BaseClass:17 - EdvelopApp capabilities specified.
+ 2016-09-27 11:47:36,407  INFO [main] BaseClass:22 - Connected to Appium Server.
+ 2016-09-27 11:47:36,458  INFO [main] BaseClass:12 - Implicit wait initialized.
+ 2016-09-27 11:47:36,464  INFO [main] BaseClass:21 - Explicit wait initialized.
+ 2016-09-27 11:47:36,464  INFO [main] BaseClass:26 - Driver setup completed.
+ 2016-09-27 11:47:36,464  INFO [main] BaseClass:38 - Setup Completed.
+ 2016-09-27 11:47:36,468  INFO [main] BaseClass:19 - Test Started : Test
+ 2016-09-27 11:47:36,492  INFO [main] BaseClass:44 - Test case execution started : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-27 11:47:59,696  INFO [main] BaseClass:50 - Test case passed : testDisplayIntroScreensOnFirstLaunch
+ 2016-09-27 11:47:59,774  INFO [main] BaseClass:25 - Excel file setup completed.
+ 2016-09-27 11:47:59,779  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-27 11:47:59,780  INFO [main] BaseClass:36 - Read from excel sheet completed.
+ 2016-09-27 11:47:59,782  INFO [main] BaseClass:44 - Test case execution started : testValidLoginWithGoogle
+ 2016-09-27 11:48:59,157  INFO [main] BaseClass:50 - Test case passed : testValidLoginWithGoogle
+ 2016-09-27 11:48:59,160  INFO [main] BaseClass:44 - Test case execution started : testDisplayDashboardAfterValidLogin
+ 2016-09-27 11:49:27,348  INFO [main] BaseClass:50 - Test case passed : testDisplayDashboardAfterValidLogin
+ 2016-09-27 11:50:11,138  INFO [main] BaseClass:44 - Test case execution started : childName
+ 2016-09-27 11:50:11,140  INFO [main] BaseClass:38 - Test case skipped : childName
+ 2016-09-27 11:50:11,180  INFO [main] BaseClass:14 - Test Finished :Test
+ 2016-09-27 11:50:11,257  INFO [main] BaseClass:66 - Appium server stopped.
+ 2016-09-27 11:50:11,265  INFO [main] BaseClass:50 - IOS webkit debug proxy service stopped.
+ 2016-09-27 11:50:11,265  INFO [main] BaseClass:56 - Testing complete.
  

@@ -10,11 +10,12 @@ public class TestDisplayDashboard extends BaseTest{
 @Test
 public void testDisplayDashboardAfterValidLogin(){
 	KidsListPage kidsListPage=new KidsListPage();
-	DashboardPage dashboardPage=new DashboardPage();
+	//DashboardPage dashboardPage=new DashboardPage();
+	System.out.println("hi");
 	kidsListPage.selectKidFromList("User 1");
 	kidsListPage.clickContinueButton();
-	String actual="";
-	String expected="";
-	Assert.assertEquals(actual, expected);
+//	String actual="";
+//	String expected="";
+//	Assert.assertEquals(actual, expected);
 }
 }

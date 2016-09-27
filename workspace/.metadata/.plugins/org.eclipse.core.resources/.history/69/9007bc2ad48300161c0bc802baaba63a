@@ -1,0 +1,40 @@
+package com.mobiliya.edvelop.pageObjects;
+
+import java.util.List;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+
+import com.mobiliya.framework.configure.BaseClass;
+
+import io.appium.java_client.MobileElement;
+import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+import io.appium.java_client.pagefactory.iOSFindBy;
+
+public class DashboardPage extends BaseClass{
+	public DashboardPage(){
+		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
+	}
+
+	@iOSFindBy(xpath = "//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]")
+	public MobileElement btn_switch_child;
+
+	public void clickSwitchChildButton(){
+		btn_switch_child.click();
+	}
+	
+	@iOSFindBy(xpath = "" )
+	public  List<WebElement> list_child_names;
+	
+	public  List<WebElement> getChildNames() {
+		wait.until(ExpectedConditions.visibilityOfAllElements(list_child_names));
+		return list_child_names;
+	}
+	
+	public void getClassName(){
+		
+	}
+	
+	
+}

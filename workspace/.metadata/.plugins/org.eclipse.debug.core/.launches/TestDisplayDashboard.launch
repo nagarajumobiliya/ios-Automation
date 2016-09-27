@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.testng.eclipse.launchconfig">
+<mapAttribute key="org.eclipse.debug.core.environmentVariables">
+<mapEntry key="PATH" value="/Users/deepti/.rvm/gems/ruby-2.3.1/bin:/Users/deepti/.rvm/gems/ruby-2.3.1@global/bin:/Users/deepti/.rvm/rubies/ruby-2.3.1/bin:/Users/deepti/local/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/bin:/Users/deepti/Library/Android/sdk/tools:/Users/deepti/Library/Android/sdk/platform-tools:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/npm/bin/:/Users/deepti/local/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/bin:/Users/deepti/Library/Android/sdk/tools:/Users/deepti/Library/Android/sdk/platform-tools:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/deepti/.rvm/bin:/usr/bin:/Users/deepti/.rvm/gems/ruby-2.3.1/bin:/Users/deepti/.rvm/gems/ruby-2.3.1@global/bin:/Users/deepti/.rvm/rubies/ruby-2.3.1/bin:/Users/deepti/local/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/bin:/Users/deepti/Library/Android/sdk/tools:/Users/deepti/Library/Android/sdk/platform-tools:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/npm/bin/:/Users/deepti/local/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/bin:/Users/deepti/Library/Android/sdk/tools:/Users/deepti/Library/Android/sdk/platform-tools:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/deepti/.rvm/bin:/usr/local/Cellar/libimobiledevice/1.2.0/bin:/Users/deepti/.rvm/gems/ruby-2.3.1/bin:/Users/deepti/.rvm/gems/ruby-2.3.1@global/bin:/Users/deepti/.rvm/rubies/ruby-2.3.1/bin:/Users/deepti/local/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/bin:/Users/deepti/Library/Android/sdk/tools:/Users/deepti/Library/Android/sdk/platform-tools:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/npm/bin/:/Users/deepti/local/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/bin:/Users/deepti/Library/Android/sdk/tools:/Users/deepti/Library/Android/sdk/platform-tools:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/deepti/.rvm/bin:/usr/bin:/Users/deepti/.rvm/gems/ruby-2.3.1/bin:/Users/deepti/.rvm/gems/ruby-2.3.1@global/bin:/Users/deepti/.rvm/rubies/ruby-2.3.1/bin:/Users/deepti/local/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/bin:/Users/deepti/Library/Android/sdk/tools:/Users/deepti/Library/Android/sdk/platform-tools:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/npm/bin/:/Users/deepti/local/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/bin:/Users/deepti/Library/Android/sdk/tools:/Users/deepti/Library/Android/sdk/platform-tools:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/deepti/.rvm/bin"/>
+</mapAttribute>
+<booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="MobiliyaAppiumFramework"/>
+<mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS"/>
+<listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
+<listEntry value="com.mobiliya.edvelop.test.TestDisplayDashboard"/>
+</listAttribute>
+<booleanAttribute key="org.testng.eclipse.DEBUG" value="false"/>
+<listAttribute key="org.testng.eclipse.GROUP_LIST"/>
+<listAttribute key="org.testng.eclipse.GROUP_LIST_CLASS"/>
+<stringAttribute key="org.testng.eclipse.LOG_LEVEL" value="2"/>
+<listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>
+<listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>
+<mapAttribute key="org.testng.eclipse.PARAMETERS"/>
+<stringAttribute key="org.testng.eclipse.PRE_DEFINED_LISTENERS" value=""/>
+<stringAttribute key="org.testng.eclipse.PROTOCOL" value="json"/>
+<intAttribute key="org.testng.eclipse.TYPE" value="1"/>
+<booleanAttribute key="org.testng.eclipse.VERBOSE" value="false"/>
+</launchConfiguration>

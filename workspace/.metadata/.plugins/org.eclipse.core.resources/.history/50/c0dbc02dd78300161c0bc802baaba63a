@@ -1,0 +1,50 @@
+package com.mobiliya.edvelop.pageObjects;
+
+import java.util.List;
+import java.util.Map;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+
+import com.mobiliya.framework.configure.BaseClass;
+
+import io.appium.java_client.MobileElement;
+import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+import io.appium.java_client.pagefactory.iOSFindBy;
+
+public class DashboardPage extends BaseClass{
+	public DashboardPage(){
+		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
+	}
+
+	@iOSFindBy(xpath = "//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]")
+	public MobileElement btn_switch_child;
+
+	public void clickSwitchChildButton(){
+		btn_switch_child.click();
+	}
+	
+	@iOSFindBy(xpath = "//UIAApplication[1]/UIAWindow[1]/UIATableView[2]/UIATableCell" )
+	public  List<WebElement> list_child_names;
+	
+	public  Map<String> getChildNames() {
+		wait.until(ExpectedConditions.visibilityOfAllElements(list_child_names));
+		Map<String>  child_names = null;
+		for(WebElement eleid : list_child_names) {
+			String name = eleid+"/UIAStaticText[1]";
+			child_names.add(name);
+		}
+		return child_names;
+	}
+	
+	public void getClassName(String kidsName){
+		wait.until(ExpectedConditions.visibilityOfAllElements(list_child_names));
+		for(WebElement eleid : list_child_names) {
+			String className = eleid+"/UIAStaticText[2]";
+			
+		}
+	}
+	
+	
+}

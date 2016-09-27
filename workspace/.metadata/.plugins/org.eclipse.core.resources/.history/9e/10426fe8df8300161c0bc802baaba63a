@@ -1,0 +1,9 @@
+package com.mobiliya.edvelop.test;
+
+import org.testng.annotations.Test;
+
+public class TestMainMenu {
+  @Test
+  public void f() {
+  }
+}
