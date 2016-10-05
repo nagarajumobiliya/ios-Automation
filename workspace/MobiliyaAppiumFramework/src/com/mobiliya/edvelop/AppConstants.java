@@ -14,6 +14,8 @@ public class AppConstants {
 	public static final String KIDS_LIST_PAGE_EXPECTED_STATIC_TEXT = "Get started by tracking your kid's daily activity at school";
 	public static final String INTRO_PAGE_EXPECTED_GET_STATRED_BTN_TEXT = "GET STARTED";
 	public static final String BACK_TO_LOGIN_PAGE_EXPECTED_INVALID_LOGIN_ERR_MSG = "Parent email does not exist, please contact your school admin to be able to use this app";
+	public static final String[] CHILD_LIST={"Amal Ahmed","Tharindu Kaluperuma"};
+	
 
 	/*
 	 * // This is a object repository for all elements of this application. Read

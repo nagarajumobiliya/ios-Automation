@@ -9,7 +9,10 @@
       <class name="com.mobiliya.edvelop.test.TestMainMenu">
         <methods>
           <include name="getPartentWindow"/>
-          <include name="childName"/>
+          <include name="testTimeLineITems"/>
+          <include name="testHomeWorkEventsDisplayed"/>
+          <include name="testGalleryEventsDisplayed"/>
+          <include name="testNoticeEventsDisplayed"/>
         </methods>
       </class> <!-- com.mobiliya.edvelop.test.TestMainMenu -->
       <class name="com.mobiliya.edvelop.test.BaseTest">

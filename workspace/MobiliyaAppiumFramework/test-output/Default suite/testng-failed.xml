@@ -6,7 +6,7 @@
       <class name="com.mobiliya.edvelop.test.TestMainMenu">
         <methods>
           <include name="getPartentWindow"/>
-          <include name="childName"/>
+          <include name="testGalleryEventsDisplayed"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.mobiliya.edvelop.test.TestMainMenu -->
