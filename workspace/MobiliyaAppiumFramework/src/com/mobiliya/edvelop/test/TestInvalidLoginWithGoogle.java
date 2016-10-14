@@ -1,5 +1,7 @@
 package com.mobiliya.edvelop.test;
 
+import java.util.List;
+
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -14,40 +16,53 @@ import com.mobiliya.edvelop.pageObjects.IntroScreensPage;
 import com.mobiliya.edvelop.pageObjects.LoginPage;
 import com.mobiliya.framework.utilities.ExcelUtility;
 
+import io.appium.java_client.MobileElement;
+
 public class TestInvalidLoginWithGoogle extends BaseTest {
 	
-	@Test(dataProvider = "testDataInvalidLogin")
-	public void testInvalidLoginWithGoogle(String username, String password) {
+//	@Test(dataProvider = "testDataInvalidLogin")
+	@Test
+	public void testInvalidLoginWithGoogle() {
 		LoginPage loginPage = new LoginPage();
 		BackToLoginPage backToLoginPage = new BackToLoginPage();
-		IntroScreensPage introPage = new IntroScreensPage();
+//		IntroScreensPage introPage = new IntroScreensPage();
 		GoogleWebViewSignInPage signInPage = new GoogleWebViewSignInPage();
-		introPage.clickGetStartedButton();
+		//introPage.clickGetStartedButton();
 		wait.until(ExpectedConditions.elementToBeClickable(loginPage.btn_sign_in_with_google));
-		loginPage.clickSignInWithGoogleButton();
+		List <MobileElement> btns_sign= loginPage.btn_sign;
+		for(MobileElement btn : btns_sign) {
+			if(btn.getAttribute("name").equals("Sign in with Google")){
+				loginPage.clickSignInButton(btn);
+				break;
+			}
+		}
 		KeywordsCommon.contextSwitchNativeToWeb();
-		signInPage.performGmailSignIn(username, password);
+		signInPage.performGmailSignIn(AppConstants.GOOGLE_LOGIN_INVALID_EMAIL_ID, AppConstants.GOOGLE_LOGIN_INVALID_PASSWORD);
 		KeywordsCommon.contextSwitchWebToNative();
 		wait.until(ExpectedConditions.visibilityOf(backToLoginPage.static_text_err_msg));
+		wait.until(ExpectedConditions.elementToBeClickable(backToLoginPage.btn_back_to_login));
 		String actual = backToLoginPage.getTextErrMsgInvalidLogin();
 		String expected = AppConstants.BACK_TO_LOGIN_PAGE_EXPECTED_INVALID_LOGIN_ERR_MSG;
 		Assert.assertEquals(actual, expected);
+		backToLoginPage.clickBackToLoginButton();
+		wait.until(ExpectedConditions.elementToBeClickable(loginPage.btn_sign_in_with_google));
+		
 	}
 
-	@DataProvider(name = "testDataInvalidLogin")
-	public Object[][] testDataInvalidLogin() {
-		ExcelUtility.setExcelFile(System.getProperty("user.dir") + AppConstants.TEST_DATA_FILE_PATH,
-				AppConstants.INVALID_LOGIN_TEST_DATA_SHEET_NAME);
-		int rowCount = ExcelUtility.getRowsCount();
-		String[][] data = new String[rowCount][];
-		int colCount;
-		for (int row = 1; row <= rowCount; row++) {
-			colCount = ExcelUtility.getColumnsCount(row);
-			data = new String[rowCount][colCount];
-			for (int col = 0; col < colCount; col++) {
-				data[row - 1][col] = ExcelUtility.getCellData(row, col);
-			}
-		}
-		return data;
-	}
+//	@DataProvider(name = "testDataInvalidLogin")
+//	public Object[][] testDataInvalidLogin() {
+//		ExcelUtility.setExcelFile(System.getProperty("user.dir") + AppConstants.TEST_DATA_FILE_PATH,
+//				AppConstants.INVALID_LOGIN_TEST_DATA_SHEET_NAME);
+//		int rowCount = ExcelUtility.getRowsCount();
+//		String[][] data = new String[rowCount][];
+//		int colCount;
+//		for (int row = 1; row <= rowCount; row++) {
+//			colCount = ExcelUtility.getColumnsCount(row);
+//			data = new String[rowCount][colCount];
+//			for (int col = 0; col < colCount; col++) {
+//				data[row - 1][col] = ExcelUtility.getCellData(row, col);
+//			}
+//		}
+//		return data;
+//	}
 }

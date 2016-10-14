@@ -17,8 +17,8 @@ public class TestMainMenu extends BaseTest{
 	@BeforeClass
 	public void getPartentWindow() {
 		page = new DashboardPage();
-		wait.until(ExpectedConditions.elementToBeClickable(page.btn_parent));
-		
+		//wait.until(ExpectedConditions.elementToBeClickable(page.btn_parent));
+		//page.btn_parent.click();
 	}
   @Test
   public void testTimeLineITems() {
@@ -58,11 +58,13 @@ public class TestMainMenu extends BaseTest{
 		}
 		Thread.sleep(500);
 		List<MobileElement> images = driver.findElements(By.xpath("//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIACollectionView[1]/UIACollectionCell"));
-		for(int j = 1; j<= images.size()-2; j++){
+		for(int j = 1; j<= images.size(); j++){
 			MobileElement imageDispayed = (MobileElement) driver.findElement(By.xpath("//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIACollectionView[1]/UIACollectionCell["+j+"]"));
 			if (imageDispayed.getAttribute("name").equals("ic download")) {
 				imageDispayed.click();
 				wait.until(ExpectedConditions.attributeContains(imageDispayed, "name", "ic play"));
+				Assert.assertEquals(imageDispayed.getAttribute("name"), "ic play");
+			}else if(imageDispayed.getAttribute("name").equals("ic play")) {
 				Assert.assertEquals(imageDispayed.getAttribute("name"), "ic play");
 			}else {
 			imageDispayed.click();

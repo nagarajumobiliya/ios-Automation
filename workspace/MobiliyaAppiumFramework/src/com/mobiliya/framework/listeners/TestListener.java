@@ -3,6 +3,7 @@ package com.mobiliya.framework.listeners;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
+import org.testng.*;
 
 import com.mobiliya.framework.configure.BaseClass;
 import com.mobiliya.framework.utilities.ScreenshotUtility;
@@ -30,8 +31,13 @@ public class TestListener extends BaseClass implements ITestListener {
 	public void onTestFailure(ITestResult failed) {
 		try {
 			String methodName = failed.getName().toString().trim();
-			APP_LOGS.info("Test case failed : " + methodName);
-			ScreenshotUtility.takeScreenshot(methodName);
+			String FileName = ScreenshotUtility.takeScreenshot(methodName);
+			APP_LOGS.info("Test case failed : " + methodName + ": https://10.9.43.129/"+FileName);
+			String path = ("<a href=\"http://10.9.43.129/"+FileName+"\">Screenshot</a>");
+			APP_LOGS.info("<img src=\"http://10.9.43.129/" + FileName + "\" alt=\"\"/><br />");
+			//APP_LOGS.info(path);
+			Reporter.log("Test case failed : "+ methodName);
+			Reporter.log(path);
 		} catch (Exception e) {
 			APP_LOGS.error("Unable to perform onTestFailure action: " + e.getMessage());
 			e.printStackTrace();

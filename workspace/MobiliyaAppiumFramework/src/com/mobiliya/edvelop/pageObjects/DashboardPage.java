@@ -2,6 +2,8 @@
 
 import java.util.List;
 import java.util.Map;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 import org.eclipse.jdt.internal.compiler.flow.ExceptionHandlingFlowContext;
 import org.openqa.selenium.WebElement;
@@ -22,7 +24,6 @@ public class DashboardPage extends BaseClass{
 
 	@iOSFindBy(xpath = "//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]")
 	public MobileElement btn_parent;
-	
 	@iOSFindBy(xpath = "//UIAApplication[1]/UIAWindow[1]/UIAStaticText[2]")
 	public MobileElement itemCategory_staticText;
 	
@@ -136,4 +137,64 @@ public class DashboardPage extends BaseClass{
 //        }
 		return EventsDispalyed;
 	}
+	@iOSFindBy(xpath = "//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell")
+	public List<MobileElement> list_child;
+	public int getChildCount() {
+		return list_child.size();
+	}
+
+	// @iOSFindBy(xpath =
+	// "//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell/UIAStaticText[2]")
+	// public List<MobileElement> list_static_text_class_name;
+
+	public List<MobileElement> list_static_text_class_name() {
+		List<MobileElement> classNameList = new ArrayList<MobileElement>();
+		try {
+			for (int i = 1; i <= getChildCount(); i++) {
+				MobileElement className = (MobileElement) driver.findElementByXPath(
+						"//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[" + i + "]/UIAStaticText[2]");
+				classNameList.add(className);
+			}
+		} catch (Exception e) {
+			APP_LOGS.error("Unable to locate element/s: " + e.getMessage());
+			e.printStackTrace();
+		}
+		return classNameList;
+	}
+
+	public String[] getClassNameList() {
+		List<MobileElement> classList = list_static_text_class_name();
+		String [] classNames = new String[classList.size()];
+		try {
+			for (int i = 0; i< classList.size(); i++) {
+				classNames[i] = classList.get(i).getText();
+			}
+			return classNames;
+		} catch (Exception e) {
+			APP_LOGS.error("Unable to get list: " + e.getMessage());
+			e.printStackTrace();
+			return null;
+		}
+	}
+
+	@iOSFindBy(xpath = "//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell")
+	public List<MobileElement> list_static_text_child_name;
+
+	public String[] getChildNameList() {
+		List<String> childNames = new ArrayList<String>();
+		try {
+			for (MobileElement childName : list_static_text_child_name) {
+				childNames.add(childName.getText());
+			}
+			Object[] objectsArray = childNames.toArray();
+			return Arrays.copyOf(objectsArray, objectsArray.length, String[].class);
+		} catch (Exception e) {
+			APP_LOGS.error("Unable to get list: " + e.getMessage());
+			e.printStackTrace();
+			return null;
+		}
+
+	}
+
+	
 }

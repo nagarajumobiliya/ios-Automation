@@ -13,6 +13,8 @@ import com.mobiliya.framework.capabilities.DeviceCapabilities;
 import com.mobiliya.framework.capabilities.EdvelopCapabilities;
 import com.mobiliya.framework.configure.AppiumServerService;
 import com.mobiliya.framework.configure.BaseClass;
+import com.mobiliya.framework.configure.ComprassDirectory;
+import com.mobiliya.framework.utilities.EmailUtility;
 import com.mobiliya.framework.utilities.ExcelUtility;
 import com.mobiliya.framework.utilities.IOSDeviceVerification;
 
@@ -47,6 +49,7 @@ public class BaseTest extends BaseClass {
 		try {
 			AppiumServerService.stopServer();
 			IOSWebkitDebugProxyService.stopIOSWebkitDebugProxyService();
+			
 			/*try {
 				Desktop.getDesktop().open(new File(Constants.REPORT_FILEPATH));
 			} catch (IOException e) {
@@ -54,6 +57,9 @@ public class BaseTest extends BaseClass {
 				e.printStackTrace();
 			}*/
 			APP_LOGS.info("Testing complete.");
+//			ComprassDirectory.zipoutputFloder();
+			Thread.sleep(5000);
+			EmailUtility.sendMail();
 		} catch (Exception e) {
 			APP_LOGS.error("Unable to complete test: " + e.getMessage());
 			e.printStackTrace();

@@ -1,8 +1,15 @@
 package com.mobiliya.edvelop.pageObjects;
+
 import java.util.List;
+
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.testng.util.Strings;
+
+import com.google.common.base.Predicate;
+import com.mobiliya.edvelop.AppConstants;
 import com.mobiliya.framework.configure.BaseClass;
+
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.pagefactory.iOSFindBy;
@@ -12,15 +19,15 @@ public class KidsListPage extends BaseClass {
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 	}
 
-	@iOSFindBy(xpath = "//UIAApplication[1]/UIAWindow[1]/UIAStaticText[1]")
+	@iOSFindBy(xpath = "//UIAApplication[1]/UIAWindow[1]/UIAStaticText[2]")
 	public MobileElement static_text_get_started;
 
 	@iOSFindBy(xpath = "//UIAApplication[1]/UIAWindow[1]/UIAButton[1]")
 	public MobileElement btn_continue;
 
 	@iOSFindBy(xpath = "//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell")
-	public List<MobileElement> list_Kids ;
-    
+	public List<MobileElement> list_Kids;
+
 	public void clickContinueButton() {
 		try {
 			btn_continue.click();
@@ -33,12 +40,17 @@ public class KidsListPage extends BaseClass {
 	public String getTextGetStartedStaticText() {
 		try {
 			String text;
-			//wait.until(ExpectedConditions.visibilityOf(static_text_get_started));
-			//text=static_text_get_started.getAttribute("name");
-			//if(text.equals(null)||(text.equals(""))){
-				text=static_text_get_started.getText();
-				return text;
-			//}
+			wait.until(new Predicate<WebDriver>() {
+				@Override
+				public boolean apply(WebDriver driver) {
+					if (Strings.isNullOrEmpty(static_text_get_started.getText()))
+						return false;
+					return true;
+				}
+			});
+			text = static_text_get_started.getText();
+			return text;
+			// }
 		} catch (Exception e) {
 			APP_LOGS.error("Unable to read text: " + e.getMessage());
 			e.printStackTrace();
@@ -46,21 +58,60 @@ public class KidsListPage extends BaseClass {
 		}
 	}
 
+	// public void selectKidFromList(String kidName) {
+	// for (MobileElement eleKid : list_Kids) {
+	//// System.out.println(eleKid.getAttribute("Name"));
+	// System.out.println(eleKid.getAttribute("name"));
+	// //eleKid.
+	// System.out.println(eleKid.findElement(By.xpath("/UIAStaticText[1]")).getText());
+	// //System.out.println(eleKid.findElementByXPath("UIAStaticText[1]").getText());
+	// //System.out.println(eleKid.getAttribute("UIAStaticText[1]"));
+	// String kidsName = "Raju";
+	// //String kidsName = driver.findElement(By.xpath(eleKid +
+	// "/UIAStaticText[1]")).getText();
+	// if (kidsName.equals(kidName)) {
+	// continue;
+	// } else {
+	// eleKid.click();
+	// }
+	// }
+	// }
 
-	
-	public String[] getChildrenList() {
-		String [] childNames = new String[list_Kids.size()];
-		wait.until(ExpectedConditions.elementToBeClickable(btn_continue));
+	public void deselectAllKids() {
 		try {
-			int i =0;
 			for (MobileElement eleKid : list_Kids) {
-				childNames[i] = eleKid.getAttribute("name");
-				i++;
+				eleKid.click();
+			}
+		} catch (Exception e) {
+			APP_LOGS.error("Unable to perform deselect: " + e.getMessage());
+			e.printStackTrace();
+		}
+	}
+
+	public void selectMultipleKidsfromList(String[] kidsList) {
+		try {
+			deselectAllKids();
+			for (int i = 0; i < AppConstants.CHILD_LIST.length; i++) {
+				selectKidFromList(AppConstants.CHILD_LIST[i]);
 			}
 		} catch (Exception e) {
 			APP_LOGS.error("Unable to select: " + e.getMessage());
 			e.printStackTrace();
 		}
-		return childNames;
+	}
+
+	public void selectKidFromList(String kidName) {
+		try {
+			for (MobileElement eleKid : list_Kids) {
+				if ((eleKid.getAttribute("name")).equals(kidName)) {
+					eleKid.click();
+				} else {
+					continue;
+				}
+			}
+		} catch (Exception e) {
+			APP_LOGS.error("Unable to select: " + e.getMessage());
+			e.printStackTrace();
+		}
 	}
 }

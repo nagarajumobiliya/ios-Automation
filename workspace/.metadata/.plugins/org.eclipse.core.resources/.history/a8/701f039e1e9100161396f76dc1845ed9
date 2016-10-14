@@ -1,0 +1,8 @@
+package com.mobiliya.framework.configure;
+
+public class comprassDirectory extends BaseClass{
+	public static void zipFloder() {
+		
+	}
+
+}

@@ -4,23 +4,35 @@
   <listeners>
     <listener class-name="com.mobiliya.framework.listeners.TestListener"/>
   </listeners>
-  <test name="Test(failed)">
+  <test name="TestGmail(failed)">
     <classes>
-      <class name="com.mobiliya.edvelop.test.TestMainMenu">
+      <class name="com.mobiliya.edvelop.test.TestDisplayDashboard">
         <methods>
-          <include name="getPartentWindow"/>
-          <include name="testTimeLineITems"/>
-          <include name="testHomeWorkEventsDisplayed"/>
-          <include name="testGalleryEventsDisplayed"/>
-          <include name="testNoticeEventsDisplayed"/>
+          <include name="navigateToDashboard"/>
+          <include name="testClassName"/>
         </methods>
-      </class> <!-- com.mobiliya.edvelop.test.TestMainMenu -->
+      </class> <!-- com.mobiliya.edvelop.test.TestDisplayDashboard -->
+      <class name="com.mobiliya.edvelop.test.TestLogOut">
+        <methods>
+          <include name="testLogOut"/>
+        </methods>
+      </class> <!-- com.mobiliya.edvelop.test.TestLogOut -->
       <class name="com.mobiliya.edvelop.test.BaseTest">
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.mobiliya.edvelop.test.BaseTest -->
+      <class name="com.mobiliya.edvelop.test.TestValidLoginWithGoogle">
+        <methods>
+          <include name="testValidLoginWithGoogle"/>
+        </methods>
+      </class> <!-- com.mobiliya.edvelop.test.TestValidLoginWithGoogle -->
+      <class name="com.mobiliya.edvelop.test.TestDisplayIntroScreens">
+        <methods>
+          <include name="testDisplayIntroScreensOnFirstLaunch"/>
+        </methods>
+      </class> <!-- com.mobiliya.edvelop.test.TestDisplayIntroScreens -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- TestGmail(failed) -->
 </suite> <!-- Failed suite [Suite] -->

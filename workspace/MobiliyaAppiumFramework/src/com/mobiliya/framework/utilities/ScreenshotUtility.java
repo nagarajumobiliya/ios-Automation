@@ -8,20 +8,24 @@ import java.util.Date;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.testng.*;
 
 import com.mobiliya.framework.configure.Constants;
 import com.mobiliya.framework.configure.BaseClass;
 
 public class ScreenshotUtility extends BaseClass {
-	public static void takeScreenshot(String methodName) {
+	public static String takeScreenshot(String methodName) {
+		String fileName = "Screenshot_" + methodName + "_" + getCurrentTime() + ".jpg";
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		try {
-			FileUtils.copyFile(scrFile, new File(
-					Constants.SCREENSHOTS_DIR_PATH + "Screenshot_" + methodName + "_" + getCurrentTime() + ".jpg"));
+			FileUtils.copyFile(scrFile, new File(Constants.SCREENSHOTS_DIR_PATH + "/"+fileName));
+			System.out.println(Constants.SCREENSHOTS_DIR_PATH + "/"+fileName);
 			APP_LOGS.info("Screenshot taken.");
+			
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		return fileName;
 	}
 
 	private static String getCurrentTime() {

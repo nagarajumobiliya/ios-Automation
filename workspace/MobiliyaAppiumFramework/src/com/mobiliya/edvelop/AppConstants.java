@@ -4,17 +4,21 @@ public class AppConstants {
 
 	public static final String GOOGLE_LOGIN_EMAIL_ID = "mobiliya1234@gmail.com";
 	public static final String GOOGLE_LOGIN_PASSWORD = "mobiliya123";
-	public static final String FACEBOOK_LOGIN_EMAIL_ID = "mobiliya1234@gmail.com";
-	public static final String FACEBOOK_LOGIN_PASSWORD = "mobiliya123";
-	public static final String MICROSOFT_LOGIN_EMAIL_ID = "mobiliya1234@outlook.com";
-	public static final String MICROSOFT_LOGIN_PASSWORD = "mobiliya123";
+	public static final String FACEBOOK_LOGIN_EMAIL_ID = "kanika.jaypee@gmail.com ";
+	public static final String FACEBOOK_LOGIN_PASSWORD = "AgreeYa@123";
+	public static final String MICROSOFT_LOGIN_EMAIL_ID = "ayush.jai@outlook.com";
+	public static final String MICROSOFT_LOGIN_PASSWORD = "AgreeYa@123";
+	public static final String GOOGLE_LOGIN_INVALID_EMAIL_ID = "mobiliya123456@gmail.com";
+	public static final String GOOGLE_LOGIN_INVALID_PASSWORD = "mobiliya123";
 	public static final String TEST_DATA_FILE_PATH = "/src/com/mobiliya/edvelop/testData/TestData.xlsx";
 	public static final String VALID_LOGIN_TEST_DATA_SHEET_NAME = "ValidLogin";
 	public static final String INVALID_LOGIN_TEST_DATA_SHEET_NAME = "InvalidLogin";
-	public static final String KIDS_LIST_PAGE_EXPECTED_STATIC_TEXT = "Get started by tracking your kid's daily activity at school";
+	public static final String KIDS_LIST_PAGE_EXPECTED_STATIC_TEXT = "Please contact school admin in case of incorrect information";
 	public static final String INTRO_PAGE_EXPECTED_GET_STATRED_BTN_TEXT = "GET STARTED";
 	public static final String BACK_TO_LOGIN_PAGE_EXPECTED_INVALID_LOGIN_ERR_MSG = "Parent email does not exist, please contact your school admin to be able to use this app";
 	public static final String[] CHILD_LIST={"Amal Ahmed","Tharindu Kaluperuma"};
+	public static final String[] CHILDWISE_CLASS_NAMES={"Class 8","Class 8"};
+	public static final String LOGIN_PAGE_EXPECTED_STATIC_TEXT_MSG="Please sign in using email id as provided to the school";
 	
 
 	/*

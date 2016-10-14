@@ -3,7 +3,7 @@ package com.mobiliya.edvelop.pageObjects;
 import org.openqa.selenium.support.PageFactory;
 
 import com.mobiliya.framework.configure.BaseClass;
-
+import java.util.List;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.pagefactory.iOSFindBy;
@@ -13,25 +13,61 @@ public class LoginPage extends BaseClass {
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 	}
 
-	@iOSFindBy(xpath = "//UIAApplication[1]/UIAWindow[1]/UIAButton[1]")
-	public MobileElement btn_sign_in_with_facebook;
+	@iOSFindBy(xpath = "//UIAApplication[1]/UIAWindow[1]/UIAButton")
+	public List<MobileElement> btn_sign;
 
 	@iOSFindBy(xpath = "//UIAApplication[1]/UIAWindow[1]/UIAButton[2]")
 	public MobileElement btn_sign_in_with_google;
+//
+//	@iOSFindBy(xpath = "//UIAApplication[1]/UIAWindow[1]/UIAButton[3]")
+//	public MobileElement btn_sign_in_with_microsoft;
 
-	@iOSFindBy(xpath = "//UIAApplication[1]/UIAWindow[1]/UIAButton[3]")
-	public MobileElement btn_sign_in_with_microsoft;
+	@iOSFindBy(xpath = "//UIAApplication[1]/UIAWindow[1]/UIAStaticText[2]")
+	public MobileElement static_text_please_login_msg;
 
-	public void clickSignInWithFacebookButton() {
-		btn_sign_in_with_facebook.click();
-	}
-
-	public void clickSignInWithGoogleButton() {
-		btn_sign_in_with_google.click();
-	}
-
-	public void clickSignInWithMicrosoftButton() {
-		btn_sign_in_with_microsoft.click();
+//	public void clickSignInWithFacebookButton() {
+//		try {
+//			btn_sign_in_with_facebook.click();
+//		} catch (Exception e) {
+//			APP_LOGS.error("Unable to click: " + e.getMessage());
+//			e.printStackTrace();
+//		}
+//	}
+//
+//	public void clickSignInWithGoogleButton() {
+//		try {
+//			btn_sign_in_with_google.click();
+//		} catch (Exception e) {
+//			APP_LOGS.error("Unable to click: " + e.getMessage());
+//			e.printStackTrace();
+//		}
+//	}
+//
+//	public void clickSignInWithMicrosoftButton() {
+//		try {
+//			btn_sign_in_with_microsoft.click();
+//		} catch (Exception e) {
+//			APP_LOGS.error("Unable to click: " + e.getMessage());
+//			e.printStackTrace();
+//		}
+//	}
+    public void clickSignInButton(MobileElement button) {
+    	try {
+			button.click();
+		} catch (Exception e) {
+			APP_LOGS.error("Unable to click: " + e.getMessage());
+			e.printStackTrace();
+		}
+    }
+    
+	public String get_static_text_please_login_msg() {
+		try {
+			return static_text_please_login_msg.getText();
+		} catch (Exception e) {
+			APP_LOGS.error("Unable to get text: " + e.getMessage());
+			e.printStackTrace();
+			return null;
+		}
 	}
 
 }

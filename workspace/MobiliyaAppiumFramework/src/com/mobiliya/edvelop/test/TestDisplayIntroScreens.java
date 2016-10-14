@@ -15,6 +15,6 @@ public class TestDisplayIntroScreens extends BaseTest {
 		wait.until(ExpectedConditions.visibilityOf(introPage.btn_get_started));
 		String actual = introPage.getTextGetStartedButton();
 		String expected = AppConstants.INTRO_PAGE_EXPECTED_GET_STATRED_BTN_TEXT;
-		Assert.assertEquals(actual, expected);
+		Assert.assertEquals(actual, expected+"hi");
 	}
 }

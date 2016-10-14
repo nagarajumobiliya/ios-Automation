@@ -4,14 +4,40 @@
 	<listeners>
 		<listener class-name="com.mobiliya.framework.listeners.TestListener" />
 	</listeners>
-	<test name="Test">
+	<test name="TestGmail">
 		<classes>
 			<class name="com.mobiliya.edvelop.test.BaseTest" />
-			<class name="com.mobiliya.edvelop.test.TestDisplayIntroScreens" />
+			<class name="com.mobiliya.edvelop.test.TestDisplayIntroScreens" />		
 			<class name="com.mobiliya.edvelop.test.TestValidLoginWithGoogle"/>
-			<!-- <class name="com.mobiliya.edvelop.test.TestValidLoginWithMicrosoft" /> -->
+			<class name="com.mobiliya.edvelop.test.TestDisplayDashboard" />
+			<!-- <class name="com.mobiliya.edvelop.test.TestMainMenu" /> -->
+			<class name="com.mobiliya.edvelop.test.TestLogOut"/>
+		</classes>
+	</test> 
+<!--  	<test name="TestMicroSoft">
+		<classes>
+			<class name="com.mobiliya.edvelop.test.BaseTest" />
+			<class name="com.mobiliya.edvelop.test.TestValidLoginWithMicrosoft" />
 			<class name="com.mobiliya.edvelop.test.TestDisplayDashboard" />
 			<class name = "com.mobiliya.edvelop.test.TestMainMenu" />
+			<class name = "com.mobiliya.edvelop.test.TestLogOut"/>
 		</classes>
-	</test> <!-- Test -->
-</suite> <!-- Suite -->
+	</test> 
+	<test name="TestFaceBook">
+		<classes>
+			<class name="com.mobiliya.edvelop.test.BaseTest" />
+			<class name="com.mobiliya.edvelop.test.TestValidLoginWithFacebook" />
+			<class name="com.mobiliya.edvelop.test.TestDisplayDashboard" />
+			<class name = "com.mobiliya.edvelop.test.TestMainMenu" />
+			<class name = "com.mobiliya.edvelop.test.TestLogOut"/>
+		</classes>
+	</test> 
+	<test name='TestInvalidGmail'>
+	    <classes>
+	      <class name="com.mobiliya.edvelop.test.BaseTest" />
+	      <class name="com.mobiliya.edvelop.test.TestInvalidLoginWithGoogle" />    
+	    </classes>    
+	</test> -->
+	
+</suite> 
+

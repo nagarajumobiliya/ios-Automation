@@ -1,0 +1,64 @@
+package com.mobiliya.framework.listeners;
+
+import org.testng.ITestContext;
+import org.testng.ITestListener;
+import org.testng.ITestResult;
+import org.testng.*;
+
+import com.mobiliya.framework.configure.BaseClass;
+import com.mobiliya.framework.utilities.ScreenshotUtility;
+
+public class TestListener extends BaseClass implements ITestListener {
+
+	@Override
+	public void onFinish(ITestContext finish) {
+		APP_LOGS.info("Test Finished :" + finish.getName());
+	}
+
+	@Override
+	public void onStart(ITestContext started) {
+		APP_LOGS.info("Test Started : " + started.getName());
+
+	}
+
+	@Override
+	public void onTestFailedButWithinSuccessPercentage(ITestResult perFail) {
+		APP_LOGS.info("Test failed but within success percentage  : " + perFail.getName());
+
+	}
+
+	@Override
+	public void onTestFailure(ITestResult failed) {
+		try {
+			String methodName = failed.getName().toString().trim();
+			String FileName = ScreenshotUtility.takeScreenshot(methodName);
+			APP_LOGS.info("Test case failed : " + methodName + FileName);
+			String path = ("<img src=\"../test-output/Screenshots/"+FileName +"\" alt=\"\"/></img>");
+			APP_LOGS.info("<img src=\"../test-output/Screenshots/"+FileName + "\" alt=\"\"/></img>");
+			Reporter.log("Test case failed : "+ methodName);
+			Reporter.log(path);
+		} catch (Exception e) {
+			APP_LOGS.error("Unable to perform onTestFailure action: " + e.getMessage());
+			e.printStackTrace();
+		}
+	}
+
+	@Override
+	public void onTestSkipped(ITestResult skipped) {
+		APP_LOGS.info("Test case skipped : " + skipped.getName());
+
+	}
+
+	@Override
+	public void onTestStart(ITestResult started) {
+		APP_LOGS.info("Test case execution started : " + started.getName());
+
+	}
+
+	@Override
+	public void onTestSuccess(ITestResult passed) {
+		APP_LOGS.info("Test case passed : " + passed.getName());
+
+	}
+
+}

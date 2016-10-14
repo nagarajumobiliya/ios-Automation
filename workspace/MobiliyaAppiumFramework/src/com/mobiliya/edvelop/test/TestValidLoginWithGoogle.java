@@ -1,5 +1,7 @@
 package com.mobiliya.edvelop.test;
 
+import java.util.List;
+
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
@@ -13,6 +15,8 @@ import com.mobiliya.edvelop.pageObjects.KidsListPage;
 import com.mobiliya.edvelop.pageObjects.LoginPage;
 import com.mobiliya.framework.utilities.ExcelUtility;
 
+import io.appium.java_client.MobileElement;
+
 public class TestValidLoginWithGoogle extends BaseTest {
 	//@Test(dataProvider = "testDataValidLogin")
 	@Test
@@ -23,14 +27,20 @@ public class TestValidLoginWithGoogle extends BaseTest {
 		GoogleWebViewSignInPage signInPage = new GoogleWebViewSignInPage();
 		introPage.clickGetStartedButton();
 		wait.until(ExpectedConditions.elementToBeClickable(loginPage.btn_sign_in_with_google));
-		loginPage.clickSignInWithGoogleButton();
+		List <MobileElement> btns_sign= loginPage.btn_sign;
+		for(MobileElement btn : btns_sign) {
+			if(btn.getAttribute("name").equals("Sign in with Google")){
+				loginPage.clickSignInButton(btn);
+				break;
+			}
+		}
 		KeywordsCommon.contextSwitchNativeToWeb();
 		signInPage.performGmailSignIn(AppConstants.GOOGLE_LOGIN_EMAIL_ID, AppConstants.GOOGLE_LOGIN_PASSWORD);
 		KeywordsCommon.contextSwitchWebToNative();
 		wait.until(ExpectedConditions.elementToBeClickable(kidsListPage.static_text_get_started));
 		String actual = kidsListPage.getTextGetStartedStaticText();
 		String expected = AppConstants.KIDS_LIST_PAGE_EXPECTED_STATIC_TEXT;
-		//Assert.assertEquals(actual, expected);
+		Assert.assertEquals(actual, expected+"hi");
 	}
 
 //	@DataProvider(name = "testDataValidLogin")

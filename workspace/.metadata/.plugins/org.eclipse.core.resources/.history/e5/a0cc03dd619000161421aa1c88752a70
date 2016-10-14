@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.mobiliya.framework.listeners.TestListener" />
+	</listeners>
+	<test name="TestGmail">
+		<classes>
+			<class name="com.mobiliya.edvelop.test.BaseTest" />
+			<class name="com.mobiliya.edvelop.test.TestDisplayIntroScreens" />		
+			<class name="com.mobiliya.edvelop.test.TestValidLoginWithGoogle"/>
+			<class name="com.mobiliya.edvelop.test.TestDisplayDashboard" />
+			<class name="com.mobiliya.edvelop.test.TestMainMenu" />
+			<class name="com.mobiliya.edvelop.test.TestLogOut"/>
+		</classes>
+	</test> 
+ 	<test name="TestMicroSoft">
+		<classes>
+			<class name="com.mobiliya.edvelop.test.BaseTest" />
+			<class name="com.mobiliya.edvelop.test.TestValidLoginWithMicrosoft" />
+			<class name="com.mobiliya.edvelop.test.TestDisplayDashboard" />
+			<class name = "com.mobiliya.edvelop.test.TestMainMenu" />
+			<class name = "com.mobiliya.edvelop.test.TestLogOut"/>
+		</classes>
+	</test> 
+	<test name="TestFaceBook">
+		<classes>
+			<class name="com.mobiliya.edvelop.test.BaseTest" />
+			<class name="com.mobiliya.edvelop.test.TestValidLoginWithFacebook" />
+			<class name="com.mobiliya.edvelop.test.TestDisplayDashboard" />
+			<class name = "com.mobiliya.edvelop.test.TestMainMenu" />
+			<class name = "com.mobiliya.edvelop.test.TestLogOut"/>
+		</classes>
+	</test> 
+	<test name='TestInvalidGmail'>
+	    <classes>
+	      <class name="com.mobiliya.edvelop.test.BaseTest" />
+	      <class name="com.mobiliya.edvelop.test.TestInvalidLoginWithGoogle" />    
+	    </classes>    
+	</test> -->
+	
+</suite> 
+

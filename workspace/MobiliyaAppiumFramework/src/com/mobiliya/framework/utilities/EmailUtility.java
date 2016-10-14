@@ -13,7 +13,7 @@ import com.mobiliya.framework.configure.BaseClass;
 
 public class EmailUtility extends BaseClass {
 
-	public static void sendMail(String email, String password, String attachmentFilePath) {
+	public static void sendMail() {
 
 		Properties props = new Properties();
 
@@ -28,7 +28,7 @@ public class EmailUtility extends BaseClass {
 
 		Session session = Session.getInstance(props, new javax.mail.Authenticator() {
 			protected PasswordAuthentication getPasswordAuthentication() {
-				return new PasswordAuthentication(email, password);
+				return new PasswordAuthentication(Constants.EMAIL_FROM, Constants.EMAIL_PASSWORD);
 			}
 		});
 
@@ -36,16 +36,14 @@ public class EmailUtility extends BaseClass {
 
 			Message message = new MimeMessage(session);
 			message.setFrom(new InternetAddress(Constants.EMAIL_FROM));
-			message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(email));
+			message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(Constants.EMAIL_TO));
 			message.setSubject("Testing Report");
-
 			MimeBodyPart messageBodyPart = new MimeBodyPart();
 			Multipart multipart = new MimeMultipart();
 			messageBodyPart = new MimeBodyPart();
-
-			DataSource source = new FileDataSource(attachmentFilePath);
+			DataSource source = new FileDataSource("/Users/deepti/Documents/ios-Automation/workspace/ios-Automation/workspace/MobiliyaAppiumFramework/test-output/emailable-report.html");
 			messageBodyPart.setDataHandler(new DataHandler(source));
-			messageBodyPart.setFileName("Report");
+			messageBodyPart.setFileName("Report.html");
 			multipart.addBodyPart(messageBodyPart);
 
 			message.setContent(multipart);

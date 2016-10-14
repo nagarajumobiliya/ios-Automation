@@ -1,5 +1,5 @@
 package com.mobiliya.edvelop.test;
-
+import java.util.List;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
@@ -15,16 +15,26 @@ import com.mobiliya.edvelop.pageObjects.KidsListPage;
 import com.mobiliya.edvelop.pageObjects.LoginPage;
 import com.mobiliya.framework.utilities.ExcelUtility;
 
+import io.appium.java_client.MobileElement;
+
 public class TestValidLoginWithFacebook extends BaseTest {
 	@Test
 	public void testValidLoginWithFacebook() {
-		IntroScreensPage introPage = new IntroScreensPage();
+//		IntroScreensPage introPage = new IntroScreensPage();
 		LoginPage loginPage = new LoginPage();
 		KidsListPage kidsListPage = new KidsListPage();
 		FacebookWebViewLogInPage fbloginPage = new FacebookWebViewLogInPage();
-		introPage.clickGetStartedButton();
-		wait.until(ExpectedConditions.elementToBeClickable(loginPage.btn_sign_in_with_facebook));
-		loginPage.clickSignInWithFacebookButton();
+//		introPage.clickGetStartedButton();
+		wait.until(ExpectedConditions.elementToBeClickable(loginPage.btn_sign_in_with_google));
+		List <MobileElement> btns_sign= loginPage.btn_sign;
+		for(MobileElement btn : btns_sign) {
+			if(btn.getAttribute("name").equals("Sign in with Facebook")){
+				loginPage.clickSignInButton(btn);
+				break;
+			}
+		}
+//		System.out.println(loginPage.btn_sign_in_with_facebook);
+//		loginPage.clickSignInWithFacebookButton();
 		KeywordsCommon.contextSwitchNativeToWeb();
 		fbloginPage.performFacebookLogIn(AppConstants.FACEBOOK_LOGIN_EMAIL_ID, AppConstants.FACEBOOK_LOGIN_PASSWORD);
 		KeywordsCommon.contextSwitchWebToNative();
